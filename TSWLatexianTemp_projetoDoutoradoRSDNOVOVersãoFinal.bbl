@@ -1,0 +1,146 @@
+\begin{thebibliography}{23}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\input babelbst.tex
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[{Ares \bbletal{}(1998)Ares, Dieste, Garc\'{\i}a, L\'{o}pez e
+  Rodr\'{\i}guez}]{Ares}
+\relax{Ares, J.; Dieste, O.; Garc\'{\i}a, R.; L\'{o}pez, M.; Rodr\'{\i}guez,
+  S.}\ \ \  Formalising the software evaluation process.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the XVIII International
+  Conference of the Chilean Computer Science Society}, Washington, DC, USA:
+  IEEE Computer Society, 1998, \bblpp{} 15--19.
+
+\bibitem[{Beck \bbletal{}(1996)Beck, Coplien, Crocker, Dominick, Meszalos e
+  Paulish}]{IndustrialExperienceWithPatterns}
+\relax{Beck, k.; Coplien, J.; Crocker, R.; Dominick, L.; Meszalos, G.; Paulish,
+  F.}\ \ \  {Industrial Experience with Design Patterns}.\ \ \
+  \textit{Proceedings of the 18th International Conference on Software
+  Engineering}, \bblpp{}~103--114, 1996.
+
+\bibitem[{Bianchi \bbletal{}(2003)Bianchi, Caivano, Marengo e
+  Visaggio}]{Bianchi03}
+\relax{Bianchi, A.; Caivano, D.; Marengo, V.; Visaggio, G.}\ \ \  {Iterative
+  Reengineering of Legacy Systems}.\ \ \ \textit{IEEE Transactions on Software
+  Engineering}, \bblvol{}~29, \bblpp{}~225--241, 2003.
+
+\bibitem[{Bisbal \bbletal{}(1999)Bisbal, Lawless, Wu e Grimson}]{bisbal}
+\relax{Bisbal, J.; Lawless, D.; Wu, B.; Grimson, J.}\ \ \  Legacy information
+  systems: issues and directions.\ \ \ \textit{Software, IEEE}, \bblvol{}~16,
+  \bblno{}~5, \bblpp{}~103 --111, 1999.
+
+\bibitem[{Cagnin(2005)}]{CagninTese}
+\relax{Cagnin, M.~I.}\ \ \  \emph{Parfait: uma contribui\c c\~ao para a
+  reengenharia de software baseada em linguagens de padr\~oes e frameworks}.\ \
+  \ Tese de doutorado, ICMC/USP, S\~ao Carlos - SP, 2005.
+
+\bibitem[{Chikofsky e Cross~II(1990)}]{chikofskyTax}
+\relax{Chikofsky, E.~J.; Cross~II, J.~H.}\ \ \  {Reverse Engineering and Design
+  Recovery: A Taxonomy}.\ \ \ \textit{IEEE Software}, \bblvol{}~7, \bblno{}~1,
+  \bblpp{}~13--17, 1990.
+
+\bibitem[{Demeyer(2005)}]{Demeyer2}
+\relax{Demeyer, S.}\ \ \  {Refactor Conditionals into Polymorphism: What's the
+  Performance Cost of Introducing Virtual Calls?}\ \ \ \textit{Software
+  Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE International
+  Conference on}, 2005.
+
+\bibitem[{Demeyer \bbletal{}(2002)Demeyer, Ducasse e
+  Nierstrasz}]{bookReengPatterns}
+\relax{Demeyer, S.; Ducasse, S.; Nierstrasz, O.}\ \ \  \emph{{Object-Oriented
+  Reengineering Patterns}}.\ \ \ Morgan Kaufmann, 2002.
+
+\bibitem[{Demeyer \bbletal{}(2005)Demeyer, Ducasse e
+  Nierstrasz}]{DemeyerReengineeringPatterns}
+\relax{Demeyer, S.; Ducasse, S.; Nierstrasz, O.}\ \ \  {Object-Oriented
+  Reengineering: Patterns and Techniques}.\ \ \ \textit{Software Maintenance,
+  2005. ICSM'05. Proceedings of the 21st IEEE International Conference on},
+  \bblpp{}~723--724, 2005.
+
+\bibitem[{Eclipse(2012)}]{Eclipse}
+\relax{Eclipse}\ \ \  {The Eclipse Foundation}.\ \ \ Dispon\'ivel em:
+  \emph{http://www.eclipse.org/}, (Acessado 12 de Janeiro de 2012), 2012.
+
+\bibitem[{Ferenc \bbletal{}(2005)Ferenc, Beszedes, Fulop e Lele}]{Ferenc}
+\relax{Ferenc, R.; Beszedes, A.; Fulop, L.; Lele, J.}\ \ \  Design pattern
+  mining enhanced by machine learning.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 21st IEEE International Conference on Software
+  Maintenance}, Washington, DC, USA: IEEE Computer Society, 2005, \bblpp{}
+  295--304.
+
+\bibitem[{Garcia \bbletal{}(2004)Garcia, Lucrédio, Prado, Kessler, Zancanella
+  e Almeida}]{Garcia2000}
+\relax{Garcia, V.~C.; Lucrédio, D.; Prado, A. F.~d.; Kessler, E.; Zancanella,
+  L.~C.; Almeida, E.}\ \ \  Reengenharia de sistemas orientados a objetos
+  através de transformações e mineração de aspectos.\ \ \
+  \capitalize\bblin{}: \textit{Proceedings of the third International
+  Information and Telecommunication Technologies Symposium (I2TS'2004)}, São
+  Carlos, SP, Brasil, 2004.
+
+\bibitem[{Kellens \bbletal{}(2007)Kellens, Mens e Tonella}]{Kellens2007}
+\relax{Kellens, A.; Mens, K.; Tonella, P.}\ \ \  Transactions on
+  aspect-oriented software development iv.\ \ \ \bblchap{} A survey of
+  automated code-level aspect mining techniques, Berlin, Heidelberg:
+  Springer-Verlag, \bblpp{} 143--162, 2007.
+
+\bibitem[{Lehman(1996)}]{Lehm96aLaws}
+\relax{Lehman, M.}\ \ \  {Laws of Software Evolution Revisited}.\ \ \
+  \capitalize\bblin{}: \textit{European Workshop on Software Process
+  Technology}, Springer, 1996, \bblpp{} 108--124.
+
+\bibitem[{Marca e McGowan(1987)}]{Marcaraf}
+\relax{Marca, D.~A.; McGowan, C.~L.}\ \ \  \emph{Sadt: structured analysis and
+  design technique}.\ \ \ New York, NY, USA: McGraw-Hill, Inc., 1987.
+
+\bibitem[{M{\"u}ller \bbletal{}(2000)M{\"u}ller, Janhke, Smith, Storey, Tilley
+  e Wong}]{RevEngRoad}
+\relax{M{\"u}ller, H.~A.; Janhke, J.~H.; Smith, D.~B.; Storey, M.-A.; Tilley,
+  S.~R.; Wong, K.}\ \ \  {Reverse Engineering: A Roadmap}.\ \ \
+  \capitalize\bblin{}: \relax{Finkelstein, A.}, \bbled{} \textit{{The Future of
+  Software Engineering 2000}}, ACM Press, 2000.
+
+\bibitem[{Parreira \bbletal{}(2010)Parreira, Costa, Camargo e
+  Penteado}]{pauloJunior}
+\relax{Parreira, P.~A.; Costa, H.~X.; Camargo, V. V.~d.; Penteado, R.}\ \ \
+  Comscid - um apoio computacional customizável para a identificação de
+  interesses transversais em sistemas legados orientados a objetos.\ \ \
+  \capitalize\bblin{}: \textit{Workshop de Manutenção de Software Moderna -
+  WMSWM}, 2010, \bblpp{} 100--108.
+
+\bibitem[{Rosenberg(1996)}]{roMisc}
+\relax{Rosenberg, L.~H.}\ \ \  {Software reengineering}.\ \ \ (Acessado 10 de
+  Janeiro de 2012), 1996.
+
+\bibitem[{Serban e Moldovan(2006)}]{Serban2006}
+\relax{Serban, G.; Moldovan, G.~S.}\ \ \  A new k-means based clustering
+  algorithm in aspect mining.\ \ \ \capitalize\bblin{}: \textit{Proceedings of
+  the Eighth International Symposium on Symbolic and Numeric Algorithms for
+  Scientific Computing}, Washington, DC, USA: IEEE Computer Society, 2006,
+  \bblpp{} 69--74.
+
+\bibitem[{Tilley(1995)}]{tilley}
+\relax{Tilley, S.}\ \ \  {Perspectives on legacy system reengineering}.\ \ \
+  (Acessado 09 de Janeiro de 2012), 1995.
+
+\bibitem[{Weiderman(1997)}]{weiderman}
+\relax{Weiderman, N.~H.}\ \ \  {Approaches to legacy system evolution}.\ \ \
+  (Acessado 08 de Janeiro de 2012), 1997.
+
+\bibitem[{Wohlin \bbletal{}(2000)Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell e
+  Wessl\'{e}n}]{Wohlin}
+\relax{Wohlin, C.; Runeson, P.; H\"{o}st, M.; Ohlsson, M.~C.; Regnell, B.;
+  Wessl\'{e}n, A.}\ \ \  \emph{Experimentation in software engineering: an
+  introduction}.\ \ \ Norwell, MA, USA: Kluwer Academic Publishers, 2000.
+
+\bibitem[{Zhang \bbletal{}(2008)Zhang, Guo e Chen}]{DanfengZhang2008}
+\relax{Zhang, D.; Guo, Y.; Chen, X.}\ \ \  Automated aspect recommendation
+  through clustering-based fan-in analysis.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the 2008 23rd IEEE/ACM International Conference on
+  Automated Software Engineering}, Washington, DC, USA: IEEE Computer Society,
+  2008, \bblpp{} 278--287.
+
+\end{thebibliography}

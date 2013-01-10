@@ -1,0 +1,81 @@
+This is BibTeX, Version 0.99d (TeX Live 2010)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_projetoDoutoradoRSDNOVOVersãoFinal.aux
+The style file: icmc2.bst
+Illegal, another \bibstyle command---line 89 of file TSWLatexianTemp_projetoDoutoradoRSDNOVOVersãoFinal.aux
+ : \bibstyle
+ :          {icmc}
+I'm skipping whatever remains of this command
+Database file #1: referencias2.bib
+Warning--I didn't find a database entry for "Pressman"
+Name 1 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 2869 of file icmc2.bst
+Name 1 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 2869 of file icmc2.bst
+Name 2 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 2869 of file icmc2.bst
+Name 3 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 2869 of file icmc2.bst
+Warning--empty booktitle in Kellens2007
+Warning--empty pages in RevEngRoad
+Warning--empty journal in roMisc
+Warning--empty journal in tilley
+Warning--empty journal in weiderman
+Name 1 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 2 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 3 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 3 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 1 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 2 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 3 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+Name 3 in "Danfeng Zhang, and Yao Guo, and Xiangqun Chen," has a comma at the end for entry DanfengZhang2008
+while executing---line 3053 of file icmc2.bst
+You've used 23 entries,
+            2708 wiz_defined-function locations,
+            776 strings with 10045 characters,
+and the built_in function-call counts, 12707 in all, are:
+= -- 1215
+> -- 610
+< -- 20
++ -- 236
+- -- 211
+* -- 1109
+:= -- 2129
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 190
+chr.to.int$ -- 23
+cite$ -- 28
+duplicate$ -- 611
+empty$ -- 943
+format.name$ -- 272
+if$ -- 2663
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 31
+newline$ -- 79
+num.names$ -- 94
+pop$ -- 228
+preamble$ -- 1
+purify$ -- 162
+quote$ -- 0
+skip$ -- 443
+stack$ -- 0
+substring$ -- 600
+swap$ -- 167
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 198
+warning$ -- 5
+while$ -- 99
+width$ -- 0
+write$ -- 259
+(There were 13 error messages)
