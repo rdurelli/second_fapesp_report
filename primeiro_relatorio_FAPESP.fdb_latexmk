@@ -1,16 +1,20 @@
 # Fdb version 3
-["bibtex primeiro_relatorio_FAPESP"] 1357926945 "primeiro_relatorio_FAPESP.aux" "primeiro_relatorio_FAPESP.bbl" "primeiro_relatorio_FAPESP" 1357927173
+["bibtex primeiro_relatorio_FAPESP"] 1357928283 "primeiro_relatorio_FAPESP.aux" "primeiro_relatorio_FAPESP.bbl" "primeiro_relatorio_FAPESP" 1357928284
   "./icmc.bst" 1230123470 28809 021733dd940750125dbb4e3de857b046 ""
   "./icmc2.bst" 1295279016 30440 56117858430ab5348d84c193b0de7a36 ""
-  "primeiro_relatorio_FAPESP.aux" 1357927173 3715 a277ad8a442256d1a366a06dafa3bd25 ""
+  "primeiro_relatorio_FAPESP.aux" 1357928283 3751 8129291f39f1a2530617088ffdadd136 ""
   "primeiro_relatorio_FAPESP.bcf" 0 -1 0 ""
   "referencias2.bib" 1330622615 93447 01a02f5666dce0c3ef5e13b8e80dfbcf ""
   (generated)
   "primeiro_relatorio_FAPESP.bbl"
   "primeiro_relatorio_FAPESP.blg"
-["pdflatex"] 1357927172 "primeiro_relatorio_FAPESP.tex" "primeiro_relatorio_FAPESP.pdf" "primeiro_relatorio_FAPESP" 1357927173
+["pdflatex"] 1357928283 "primeiro_relatorio_FAPESP.tex" "primeiro_relatorio_FAPESP.pdf" "primeiro_relatorio_FAPESP" 1357928284
   "./text/abstract.tex" 1357835711 658 0a70ab1dad2ddae557a85822978fe3c2 ""
-  "./text/atividades_tecnicas_previstas_no_cronograma_do_projeto.tex" 1357927169 10282 82de093e409bab5ba681c66a52167139 ""
+  "./text/atividades_tecnicas_previstas_no_cronograma_do_projeto.tex" 1357927841 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "./text/disciplinas_regulares_doutorado.tex" 1357928251 2365 49903111fb6e57be16a939e0ebcf6594 ""
+  "./text/estudo_ADM.tex" 1357928258 3397 d5db54f598c77b922db9dabb49c6237a ""
+  "./text/estudo_MDD.tex" 1357928266 1888 65acc5dfcb04c8c387a8704cfc807234 ""
+  "./text/estudo_reengenharia_software.tex" 1357928272 2145 51f5464c39408aa9a28c16cccb835120 ""
   "./text/introduction.tex" 1357837935 1651 f26bea66a08cb9572a22a55a060407f7 ""
   "./text/resumo_das_atividades_realizadas_no_periodo.tex" 1357910405 1056 4a89e0f02e6128caeeee1fbb10bb7d64 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -115,11 +119,15 @@
   "babelbst.tex" 1230365058 2650 38ebcf3c9cbda3bfb83f7cc277e322a7 ""
   "englbst.tex" 1230366098 4065 fbb321b9d94b286c706c53e38b7024c9 ""
   "icmc.jpg" 1325616056 90559 e60f75b15ca5ecd6039d7584696c7a60 ""
-  "primeiro_relatorio_FAPESP.aux" 1357927173 3715 a277ad8a442256d1a366a06dafa3bd25 ""
-  "primeiro_relatorio_FAPESP.bbl" 1357926945 875 3bbfa15a2f6b8c963216fd7897af79ab "bibtex primeiro_relatorio_FAPESP"
-  "primeiro_relatorio_FAPESP.tex" 1357924123 5066 e2227108e200753c7cb45ff21340d793 ""
+  "primeiro_relatorio_FAPESP.aux" 1357928283 3751 8129291f39f1a2530617088ffdadd136 ""
+  "primeiro_relatorio_FAPESP.bbl" 1357928283 875 3bbfa15a2f6b8c963216fd7897af79ab "bibtex primeiro_relatorio_FAPESP"
+  "primeiro_relatorio_FAPESP.tex" 1357928186 5777 8bd7556ee26a7063fd2812dba004d5e5 ""
   "text/abstract.tex" 1357835711 658 0a70ab1dad2ddae557a85822978fe3c2 ""
-  "text/atividades_tecnicas_previstas_no_cronograma_do_projeto.tex" 1357927169 10282 82de093e409bab5ba681c66a52167139 ""
+  "text/atividades_tecnicas_previstas_no_cronograma_do_projeto.tex" 1357927841 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "text/disciplinas_regulares_doutorado.tex" 1357928251 2365 49903111fb6e57be16a939e0ebcf6594 ""
+  "text/estudo_ADM.tex" 1357928258 3397 d5db54f598c77b922db9dabb49c6237a ""
+  "text/estudo_MDD.tex" 1357928266 1888 65acc5dfcb04c8c387a8704cfc807234 ""
+  "text/estudo_reengenharia_software.tex" 1357928272 2145 51f5464c39408aa9a28c16cccb835120 ""
   "text/introduction.tex" 1357837935 1651 f26bea66a08cb9572a22a55a060407f7 ""
   "text/resumo_das_atividades_realizadas_no_periodo.tex" 1357910405 1056 4a89e0f02e6128caeeee1fbb10bb7d64 ""
   (generated)
