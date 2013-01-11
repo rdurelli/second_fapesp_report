@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: primeiro_relatorio_FAPESP.aux
 The style file: icmc2.bst
-Illegal, another \bibstyle command---line 37 of file primeiro_relatorio_FAPESP.aux
+Illegal, another \bibstyle command---line 35 of file primeiro_relatorio_FAPESP.aux
  : \bibstyle
  :          {icmc}
 I'm skipping whatever remains of this command
@@ -12,45 +12,45 @@ Warning--I didn't find a database entry for "Bittar"
 Warning--I didn't find a database entry for "Kleppe:2003"
 Warning--I didn't find a database entry for "PerezCastillo:2011jo"
 Warning--I didn't find a database entry for "rezCastillo:2011gm"
-You've used 3 entries,
+You've used 2 entries,
             2708 wiz_defined-function locations,
-            646 strings with 5795 characters,
-and the built_in function-call counts, 1605 in all, are:
-= -- 147
-> -- 86
+            640 strings with 5642 characters,
+and the built_in function-call counts, 1144 in all, are:
+= -- 106
+> -- 60
 < -- 2
-+ -- 33
-- -- 30
-* -- 146
-:= -- 280
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 25
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 71
-empty$ -- 115
-format.name$ -- 41
-if$ -- 323
++ -- 23
+- -- 21
+* -- 105
+:= -- 197
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 17
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 50
+empty$ -- 78
+format.name$ -- 29
+if$ -- 229
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 19
-num.names$ -- 12
-pop$ -- 34
+missing$ -- 3
+newline$ -- 16
+num.names$ -- 8
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 15
 quote$ -- 0
-skip$ -- 50
+skip$ -- 37
 stack$ -- 0
-substring$ -- 57
-swap$ -- 15
+substring$ -- 46
+swap$ -- 13
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 21
+type$ -- 15
 warning$ -- 0
-while$ -- 12
+while$ -- 9
 width$ -- 0
-write$ -- 40
+write$ -- 30
 (There was 1 error message)

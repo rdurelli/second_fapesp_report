@@ -154,9 +154,9 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT icmc.jpg
 INPUT ./icmc.jpg
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT icmc.jpg
 INPUT ./icmc.jpg
-INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT icmc.jpg
 INPUT ./icmc.jpg
 INPUT icmc.jpg
