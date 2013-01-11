@@ -1,0 +1,26 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\input babelbst.tex
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[{Chikofsky e Cross~II(1990)}]{chikofskyTax}
+\relax{Chikofsky, E.~J.; Cross~II, J.~H.}\ \ \  {Reverse Engineering and Design
+  Recovery: A Taxonomy}.\ \ \ \textit{IEEE Software}, \bblvol{}~7, \bblno{}~1,
+  \bblpp{}~13--17, 1990.
+
+\bibitem[{Demeyer \bbletal{}(2002)Demeyer, Ducasse e
+  Nierstrasz}]{bookReengPatterns}
+\relax{Demeyer, S.; Ducasse, S.; Nierstrasz, O.}\ \ \  \emph{{Object-Oriented
+  Reengineering Patterns}}.\ \ \ Morgan Kaufmann, 2002.
+
+\bibitem[{Fowler \bbletal{}(1999)Fowler, Beck, Brant, Opdyke e
+  Roberts}]{refactImpro}
+\relax{Fowler, M.; Beck, K.; Brant, J.; Opdyke, W.; Roberts, D.}\ \ \
+  \emph{{Refactoring: Improving the Design of Existing Code}}.\ \ \
+  Addison-Wesley, 1999.
+
+\end{thebibliography}

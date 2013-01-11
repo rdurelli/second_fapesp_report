@@ -1,0 +1,80 @@
+%% LyX 2.0.1 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\usepackage{array}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\begin{tabular}{|>{\centering}p{3cm}|>{\raggedright}p{12cm}|}
+\hline 
+Vantagem & Caracterização\tabularnewline
+\hline 
+\hline 
+Produtividade & \begin{itemize}
+\item Automatização da geração de código a partir de modelos por meio de
+uso de ferramentas de transformação, incentivando os desenvolvedores
+a retornarem às etapas iniciais de requisitos e análise; 
+\item Tarefas repetitivas de codificação são implementadas nas transformações,
+poupando tempo e esforço que podem ser despendidos em outras tarefas.\end{itemize}
+\tabularnewline
+\hline 
+Portabilidade & \begin{itemize}
+\item A partir de um mesmo modelo pode-se gerar código para diferentes plataformas.\end{itemize}
+\tabularnewline
+\hline 
+Interoperabilidade & \begin{itemize}
+\item Cada parte do modelo pode ser transformado em código para uma plataforma
+diferente, o que resulta em um software que pode ser executado em
+um ambiente heterogêneo, mas que mantém sua funcionalidade global.\end{itemize}
+\tabularnewline
+\hline 
+Manutenção e documentação & \begin{itemize}
+\item Alterações são realizadas diretamento nos modelos, mantendo-os consistentes
+como o código-fonte, o qual é gerado automaticamente a partir de transformações
+aplicadas nesses modelos;
+\item A documentação permanece atualizada, o que facilita as tarefas de
+manutenção.\end{itemize}
+\tabularnewline
+\hline 
+Comunicação & \begin{itemize}
+\item Uma vez que os modelos são mais abstratos que o código-fonte, o que
+não exige conhecimento técnico associado à plataforma de implementação
+para sua compreensão, os especialistas do domínio podem utilizar diretamente
+os modelos para identificar mais facilmente as questões associadas
+ao negócio;
+\item Os especialistas de tecnologia da informação podem identificar os
+elementos técnicas usando os mesmos modelos.\end{itemize}
+\tabularnewline
+\hline 
+Reuse & \begin{itemize}
+\item O reuso é feito em nível de modelos ao invés de um nível de código-fonte;
+\item O código-fonte pode ser automaticamente regenerado para novos contextos
+por meio de ferramentas de transformações apropriadas.\end{itemize}
+\tabularnewline
+\hline 
+Verificação e Otimizações & \begin{itemize}
+\item Os modelos facilitam a análise por verificadores semânticos, conforme
+a sintaxe de seu metamodelo, e a execução de otimizações automáticas;
+\item Minimização da ocorrência de erros semânticos, o que fornece implementações
+mais eficientes.\end{itemize}
+\tabularnewline
+\hline 
+Correção & \begin{itemize}
+\item Ferramentas de transformação evitam a introdução de erros acidentais,
+tais como erros de digitação e de sintaxe;
+\item Erros conceituais podem ser identificados em um nível mais alto de
+abstração.\end{itemize}
+\tabularnewline
+\hline 
+\end{tabular}
+\end{document}
