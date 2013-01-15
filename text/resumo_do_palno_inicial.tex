@@ -1,0 +1,51 @@
+
+Muitas organizações utilizam sistemas que foram desenvolvidos há anos e que já foram submetidos a diversas atividades de manutenção para se adequar a novos requisitos, acomodar alterações tecnológicas e satisfazer novos processos de negócio. Sistemas que não foram projetados de forma adequada para acomodar constantes alterações em seus requisitos, tendem a ter suas arquiteturas corrompidas e rapidamente tornam-se obsoletos, trazendo dificuldades para o crescimento da organização em ambientes competitivos. Quando isso ocorre, esses sistemas são comumente conhecidos como ``sistemas legados''~\cite{Griffith2011}. 
+
+De acordo com~\citet{Fokaefs2012} a partir do momento em que um sistema começa a ser utilizado, ele entra em um estado contínuo de mudança. Tais sistemas tendem a se tornarem obsoletos em vista das novas tecnologias que são disponibilizadas ou em consequência de manutenções que são feitas sem planejamento. Além das correções de erros, as mudanças mais comuns que os sistemas sofrem são migrações para novos paradigmas e extensões em sua funcionalidade para atender a novos requisitos dos usuários. 
+
+Os problemas mais comuns de sistemas legados são: (\textit{i}) tipicamente são implementados com tecnologias obsoletas fazendo com que a manutenção se torne custosa e difícil, (\textit{ii}) usualmente não possuem documentações, e quando possuem, não estão atualizadas e (\textit{iii}) devido a falta de documentação, integrar sistemas legados à outros sistemas tende a ser um processo difícil, lento e propício a erros. No entanto, sistemas legados tem geralmente uma missão importante dentro de uma companhia pois representam/armazenam informações de suma importância e assim não podem simplesmente serem descartados.
+
+
+Outro problema é que muitas tarefas de manutenção necessitam de grandes modificação no código-fonte, as quais são normalmente feitas manualmente e assim tendem a gerarem efeitos colaterais em outros módulos do sistema. Além disso, em geral, processos de manutenção são iniciados sem uma clara especificação do que se quer alcançar, dificultando a identificação se o problema foi resolvido completamente.
+
+
+
+Uma das técnicas disponíveis na literatura para melhorar a qualidade de sistemas legados é submetê-los a um processo de reengenharia que é o processo no qual ``transformações'' são realizadas no sistema com o intuito de melhorar sua estrutura sem alterar seu comportamento original~\cite{refactImpro}.  
+
+
+ 
+
+
+
+Usualmente reengenharia está ligada com transformações as quais seguem catálogos de refatorações, tais como as refatorações propostas por~\citet{refactImpro}. Transformação é a atividade em que um conjunto de mudanças são efetivamente realizadas no código-fonte, objetivando melhorar sua estrutura e até mesmo atender a novos requisitos~\cite{Griswold}. Para auxiliar essa atividade algumas abordagens existem na literatura~\cite{bisbal, tilley, refactImpro}.
+
+Similarmente várias abordagens foram propostas para auxiliar a reengenharia de sistemas legados~\cite{Griffith2011, Olszak:2012:RJP:2108329.2108539}.
+Apesar da existência de todas essas abordagens, de acordo com~\citet{Sneed:2005} mais da metade dos projetos que aplicam reengenharia falham ao lidar com desafios específicos. Segundo tal autor, tanto a carência de  padronização durante a atividade de reengenharia quanto a falta de apoio computacional efetivo são os principais problemas que acarretam esse grande número de falhas.  A falta de um processo padronizado é um problema durante a atividade de reengenharia, a qual é realizada de maneira totalmente \textit{ad hoc}. Adicionalmente, o código-fonte não deve ser o único artefato do software a possuir padronização, uma vez que o mesmo não representa/contêm todas as informações necessárias de um sistema. Portanto, a atividade de reengenharia deve possuir diretrizes que auxiliem a padronização de todos os artefatos do software, e.g., código-fonte, dados, regras de negócios, etc.
+
+
+Uma alternativa à reengenharia tradicional e que vem sendo investigada atualmente é a Modernização Orientada à Arquitetura (\textit{Architecture Driven Modernization} - (ADM)), a qual permite realizar análises de descoberta de conhecimento e refatorações utilizando os princípios da abordagem de Desenvolvimento Orientado a Modelos (\textit{Model-Driven Development} - (MDD)), ao invés de efetuá-los diretamente no código-fonte~\cite{PerezCastillo:2011jo}. 
+
+Uma forte característica da ADM é o oferecimento de um conjunto de metamodelos padronizados para representar artefatos de um sistema legado. Entre esses metamodelos tem-se o principal ativo da OMG, denominado metamodelo de Descoberta de Conhecimento (\textit{Knowledge Discovery Meta-Model} - KDM). KDM é um metamodelo para instanciar e modelar todos os artefatos de um sistema legado e pode ser utilizado como um metamodelo independente para auxiliar o engenheiro de software durante a atividade de modernização de sistemas legados. Entre Maio de 2004 e Agosto de 2005, mais de trinta organizações colaboraram para o desenvolvimento e revisão da padronização do KDM. Em meados de 2007, a OMG oficializou a versão 1.0 do KDM, e hoje o KDM encontrasse na versão 1.3 e é reconhecido internacionalmente como uma padronização (ISO/IEC 19506) para ser utilizado durante a atividade de modernização de sistemas legados~\cite{ISOKDM}. 
+
+
+Este projeto de doutorado tem quatro principais motivações. A primeira é a carência de catálogos de refatorações para o metamodelo KDM. Existem documentos~\cite{OMGADM, ADMBook, ADMCHAPTERR} que mostram que refatorações para esse metamodelo ainda não existem. Neste contexto, é importante criar catálogos de refatorações para o KDM com objetivo de padronizar o processo de modernização e aumentar a interoperabilidade entre ferramentas que utilizam o KDM para auxiliar o processo de modernização.
+
+
+A segunda motivação é a ausência de abordagens que permitam analisar diferentes cenários de modernização antes de efetivamente realizar transformações no sistema legado. A maior parte das abordagens disponíveis na literatura realizam as refatorações diretamente no código-fonte. Assim, tais abordagens inviabilizam a possibilidade de gerar vários sistemas modernizados somente para averiguar qual deles é o mais adequado de acordo com os modelos de referência. No contexto deste projeto, modelos de referência são especificações do que se espera que o sistema legado atenda após ser modernizado, por exemplo, uma arquitetura orientada a serviço.
+
+
+A terceira motivação é a falta de meios para se especificar tais modelos de referência. Portanto, muitas tarefas de reengenharia são iniciadas sem um entendimento claro dos problemas atuais e sem uma definição precisa das melhorias esperadas após as refatorações; fazendo com que não sejam efetivas na solução dos problemas existentes. O que as abordagens de refatoração atuais fazem é aplicar o mesmo conjunto de casos de teste nas duas versões do sistema e averiguar se a funcionalidade não foi alterada~\cite{Demeyer1, Demeyer2, RefactoringJava}. Entretanto, isso não garante que os problemas foram resolvidos.
+
+
+Por fim, existe é a necessidade de um apoio computacional efetivo durante a atividade de reengenharia de um sistema legado. Como ressaltado anteriormente, mais da metade dos projetos que aplicaram reengenharia em um sistema legado falharam devido a ausência de um apoio computacional efetivo~\cite{Sneed:2005}. A falta de padronização durante a atividade de reengenharia também acarreta esse grande número de falhas. Sem uma padronização a atividade de reengenharia tente a ser realizada de maneira totalmente \textit{ad hoc}, o que pode atrasar e gerar gastos durante a atividade em questão.
+
+
+Tendo elucidado os problemas relacionados com a reengenharia de software, o objetivo deste projeto é desenvolver um ambiente que recomende cenários alternativos de modernização com base em modelos de referência. Adicionalmente, objetiva-se desenvolver catálogos de refatorações para o metamodelo KDM. Com a utilização desses catálogos será possível fazer com o que sistemas legados sejam refatorados para uma arquitetura orientada a serviços ou outras arquiteturas candidatas. Do mesmo modo será possível que interesses transversais de um sistema legado sejam refatorados para se tornarem mais modular, por exemplo, utilizando o paradigma orientada a aspectos~\cite{Kiczales}. 
+
+
+%Tendo elucidado os problemas relacionados com a reegenharia de software, o objetivo deste projeto é desenvolver um ambiente que recomende cenários alternativos de modernização com base em modelos de referência. Por exemplo, o ambiente deverá comparar o resultado da modernização com o que foi especificado no modelo de referência e indicar possíveis desvios de cada cenário. Uma vez que pretende-se permitir que o engenheiro de software manipule diferentes cenários de modernização do mesmo sistema legado simultaneamente, uma possível abordagem é alterar diversas vezes o menos código-fonte do sistema. No entanto, essa abordagem tende a consumir grande quantidade de recurso computacional~\cite{Lavallee2011}. Outra possível abordagem, e é a que será utilizada neste projeto é a utilização de modelos mais abstratos do que o código-fonte. Portanto, cada cenário de modernização será representado por pelo metamodelo KDM para auxiliar na representação dos artefatos do sistema legado.
+
+
+
+ 
+

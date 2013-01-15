@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -7,15 +7,46 @@
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
 
+\bibitem[{Bisbal \bbletal{}(1999)Bisbal, Lawless, Wu e Grimson}]{bisbal}
+\relax{Bisbal, J.; Lawless, D.; Wu, B.; Grimson, J.}\ \ \  Legacy information
+  systems: issues and directions.\ \ \ \textit{Software, IEEE}, \bblvol{}~16,
+  \bblno{}~5, \bblpp{}~103 --111, 1999.
+
 \bibitem[{Chikofsky e Cross~II(1990)}]{chikofskyTax}
 \relax{Chikofsky, E.~J.; Cross~II, J.~H.}\ \ \  {Reverse Engineering and Design
   Recovery: A Taxonomy}.\ \ \ \textit{IEEE Software}, \bblvol{}~7, \bblno{}~1,
   \bblpp{}~13--17, 1990.
+
+\bibitem[{Demeyer(2005)}]{Demeyer2}
+\relax{Demeyer, S.}\ \ \  {Refactor Conditionals into Polymorphism: What's the
+  Performance Cost of Introducing Virtual Calls?}\ \ \ \textit{Software
+  Maintenance, 2005. ICSM'05. Proceedings of the 21st IEEE International
+  Conference on}, 2005.
+
+\bibitem[{Demeyer \bbletal{}(2004)Demeyer, Du~Bois e Verelst}]{Demeyer1}
+\relax{Demeyer, S.; Du~Bois, B.; Verelst, J.}\ \ \  {Refactoring - Improving
+  Coupling and Cohesion of Existing Code}.\ \ \ \textit{Reverse Engineering,
+  2004. Proceedings. 11th Working Conference on}, 2004.
 
 \bibitem[{Fowler \bbletal{}(1999)Fowler, Beck, Brant, Opdyke e
   Roberts}]{refactImpro}
 \relax{Fowler, M.; Beck, K.; Brant, J.; Opdyke, W.; Roberts, D.}\ \ \
   \emph{{Refactoring: Improving the Design of Existing Code}}.\ \ \
   Addison-Wesley, 1999.
+
+\bibitem[{Kiczales \bbletal{}(1997)Kiczales, Lamping, Mendhekar, Maeda, Lopes,
+  Loingtier e Irwin}]{Kiczales}
+\relax{Kiczales, G.; Lamping, J.; Mendhekar, A.; Maeda, C.; Lopes, C.~V.;
+  Loingtier, J.-M.; Irwin, J.}\ \ \  Aspect-oriented programming.\ \ \
+  \capitalize\bblin{}: \textit{ECOOP}, 1997, \bblpp{} 220--242.
+
+\bibitem[{Monteiro e Fernandes(2005)}]{RefactoringJava}
+\relax{Monteiro, M.; Fernandes, J.}\ \ \  {Refactoring a Java Code Base to
+  AspectJ - An Illustrative Example}.\ \ \ \textit{Proceedings of the 21st IEEE
+  International Conference on Software Maintenance}, 2005.
+
+\bibitem[{Tilley(1995)}]{tilley}
+\relax{Tilley, S.}\ \ \  {Perspectives on legacy system reengineering}.\ \ \
+  (Acessado 09 de Janeiro de 2012), 1995.
 
 \end{thebibliography}
