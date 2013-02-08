@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -48,5 +48,11 @@
 \bibitem[{Tilley(1995)}]{tilley}
 \relax{Tilley, S.}\ \ \  {Perspectives on legacy system reengineering}.\ \ \
   (Acessado 09 de Janeiro de 2012), 1995.
+
+\bibitem[{Wohlin \bbletal{}(2000)Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell e
+  Wessl\'{e}n}]{Wohlin}
+\relax{Wohlin, C.; Runeson, P.; H\"{o}st, M.; Ohlsson, M.~C.; Regnell, B.;
+  Wessl\'{e}n, A.}\ \ \  \emph{Experimentation in software engineering: an
+  introduction}.\ \ \ Norwell, MA, USA: Kluwer Academic Publishers, 2000.
 
 \end{thebibliography}
