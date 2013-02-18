@@ -12,7 +12,9 @@
 \usepackage[usenames]{color}
 \usepackage{rotating}
 \usepackage{url}
+\usepackage{pdfpages}
 \usepackage{subfigure}
+\usepackage[table]{xcolor}
 \usepackage{xspace}
 \usepackage[verbose, dvips=true, pdftex=false, vtex=false, paperwidth=210mm,paperheight=295mm,top=35mm,left=30mm,bottom=35mm,right=30mm]{geometry}
 \usepackage[authoryear]{natbib}
@@ -107,6 +109,7 @@
 			\input{text/resumo_do_palno_inicial}
 
 		\subsection{Cronograma}\label{cronograma}
+			\input{text/cronograma}
 
 \section{Resumo das Atividades Realizadas no Período}\label{atividades_realizadas}
 
@@ -215,10 +218,20 @@
 
 \section{Trabalhos Relacionados}\label{sec:relacionados}
  
-     
+
 
 \singlespacing 
 \bibliographystyle{icmc}
 \bibliography{referencias2}
+
+\clearpage
+
+\section{Anexos}\label{anexos}
+
+\addcontentsline{toc}{section}{Anexos}\label{anexos}
+
+% 
+
+\input{text/anexos}
 
 \end{document}
