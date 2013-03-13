@@ -13,9 +13,6 @@ Outro problema é que muitas tarefas de manutenção necessitam de grandes modif
 Uma das técnicas disponíveis na literatura para melhorar a qualidade de sistemas legados é submetê-los a um processo de reengenharia que é o processo no qual ``transformações'' são realizadas no sistema com o intuito de melhorar sua estrutura sem alterar seu comportamento original~\cite{refactImpro}.  
 
 
- 
-
-
 
 Usualmente reengenharia está ligada com transformações as quais seguem catálogos de refatorações, tais como as refatorações propostas por~\citet{refactImpro}. Transformação é a atividade em que um conjunto de mudanças são efetivamente realizadas no código-fonte, objetivando melhorar sua estrutura e até mesmo atender a novos requisitos~\cite{Griswold}. Para auxiliar essa atividade algumas abordagens existem na literatura~\cite{bisbal, tilley, refactImpro}.
 
@@ -37,7 +34,7 @@ A segunda motivação é a ausência de abordagens que permitam analisar diferen
 A terceira motivação é a falta de meios para se especificar tais modelos de referência. Portanto, muitas tarefas de reengenharia são iniciadas sem um entendimento claro dos problemas atuais e sem uma definição precisa das melhorias esperadas após as refatorações; fazendo com que não sejam efetivas na solução dos problemas existentes. O que as abordagens de refatoração atuais fazem é aplicar o mesmo conjunto de casos de teste nas duas versões do sistema e averiguar se a funcionalidade não foi alterada~\cite{Demeyer1, Demeyer2, RefactoringJava}. Entretanto, isso não garante que os problemas foram resolvidos.
 
 
-Por fim, existe é a necessidade de um apoio computacional efetivo durante a atividade de reengenharia de um sistema legado. Como ressaltado anteriormente, mais da metade dos projetos que aplicaram reengenharia em um sistema legado falharam devido a ausência de um apoio computacional efetivo~\cite{Sneed:2005}. A falta de padronização durante a atividade de reengenharia também acarreta esse grande número de falhas. Sem uma padronização a atividade de reengenharia tente a ser realizada de maneira totalmente \textit{ad hoc}, o que pode atrasar e gerar gastos durante a atividade em questão.
+Por fim, existe a necessidade de um apoio computacional efetivo durante a atividade de reengenharia de um sistema legado. Como ressaltado anteriormente, mais da metade dos projetos que aplicaram reengenharia em um sistema legado falharam devido a ausência de um apoio computacional efetivo~\cite{Sneed:2005}. A falta de padronização durante a atividade de reengenharia também acarreta esse grande número de falhas. Sem uma padronização a atividade de reengenharia tente a ser realizada de maneira totalmente \textit{ad hoc}, o que pode atrasar e gerar gastos durante a atividade em questão.
 
 
 Tendo elucidado os problemas relacionados com a reengenharia de software, o objetivo deste projeto é desenvolver um ambiente que recomende cenários alternativos de modernização com base em modelos de referência. Adicionalmente, objetiva-se desenvolver catálogos de refatorações para o metamodelo KDM. Com a utilização desses catálogos será possível fazer com o que sistemas legados sejam refatorados para uma arquitetura orientada a serviços ou outras arquiteturas candidatas. Do mesmo modo será possível que interesses transversais de um sistema legado sejam refatorados para se tornarem mais modular, por exemplo, utilizando o paradigma orientada a aspectos~\cite{Kiczales}. 

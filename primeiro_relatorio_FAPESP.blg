@@ -2,65 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: primeiro_relatorio_FAPESP.aux
 The style file: icmc2.bst
-Illegal, another \bibstyle command---line 69 of file primeiro_relatorio_FAPESP.aux
+Illegal, another \bibstyle command---line 66 of file primeiro_relatorio_FAPESP.aux
  : \bibstyle
  :          {icmc}
 I'm skipping whatever remains of this command
 Database file #1: referencias2.bib
-Warning--I didn't find a database entry for "Griffith2011"
-Warning--I didn't find a database entry for "Fokaefs2012"
-Warning--I didn't find a database entry for "Griswold"
-Warning--I didn't find a database entry for "Olszak:2012:RJP:2108329.2108539"
-Warning--I didn't find a database entry for "Sneed:2005"
-Warning--I didn't find a database entry for "PerezCastillo:2011jo"
-Warning--I didn't find a database entry for "ISOKDM"
-Warning--I didn't find a database entry for "OMGADM"
-Warning--I didn't find a database entry for "ADMBook"
-Warning--I didn't find a database entry for "ADMCHAPTERR"
-Warning--I didn't find a database entry for "Bittar"
-Warning--I didn't find a database entry for "Kleppe:2003"
-Warning--I didn't find a database entry for "rezCastillo:2011gm"
-Warning--I didn't find a database entry for "kit04"
+Warning--empty school in Griswold
 Warning--empty journal in tilley
-You've used 9 entries,
+You've used 23 entries,
             2708 wiz_defined-function locations,
-            702 strings with 7196 characters,
-and the built_in function-call counts, 4794 in all, are:
-= -- 449
-> -- 266
-< -- 7
-+ -- 102
-- -- 93
-* -- 428
-:= -- 838
-add.period$ -- 18
-call.type$ -- 9
-change.case$ -- 77
-chr.to.int$ -- 9
-cite$ -- 10
-duplicate$ -- 218
-empty$ -- 323
-format.name$ -- 120
-if$ -- 970
-int.to.chr$ -- 1
+            776 strings with 9843 characters,
+and the built_in function-call counts, 12285 in all, are:
+= -- 1200
+> -- 590
+< -- 19
++ -- 229
+- -- 204
+* -- 1091
+:= -- 2080
+add.period$ -- 46
+call.type$ -- 23
+change.case$ -- 187
+chr.to.int$ -- 21
+cite$ -- 25
+duplicate$ -- 582
+empty$ -- 875
+format.name$ -- 269
+if$ -- 2541
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 12
-newline$ -- 37
-num.names$ -- 36
-pop$ -- 88
+missing$ -- 29
+newline$ -- 79
+num.names$ -- 92
+pop$ -- 206
 preamble$ -- 1
-purify$ -- 67
+purify$ -- 160
 quote$ -- 0
-skip$ -- 161
+skip$ -- 424
 stack$ -- 0
-substring$ -- 186
-swap$ -- 52
-text.length$ -- 3
+substring$ -- 589
+swap$ -- 160
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 75
-warning$ -- 1
-while$ -- 34
+type$ -- 192
+warning$ -- 2
+while$ -- 100
 width$ -- 0
-write$ -- 102
+write$ -- 256
 (There was 1 error message)
