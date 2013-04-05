@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 MAR 2013 10:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 MAR 2013 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,9 +497,6 @@ LaTeX Warning: Label `fig:comprovante_vmil' multiply defined.
 
 
 LaTeX Warning: Label `anexo:comprovante_SBES' multiply defined.
-
-
-LaTeX Warning: Label `fig:comprovante_vmil' multiply defined.
 
 
 LaTeX Warning: Label `fig:comprovante_vmil' multiply defined.
@@ -2025,307 +2022,397 @@ File: apendices/SBESFerramenta.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/SBESFerramenta.pdf, page6 used on input line
  70.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
- [58 <./apendices/SBESFerramenta.pdf>] <apendices/comprovante_acmsac.pdf, id=19
-83, 471.7625pt x 665.48625pt>
-File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
-
-<use apendices/comprovante_acmsac.pdf>
-Package pdftex.def Info: apendices/comprovante_acmsac.pdf used on input line 80
-.
-(pdftex.def)             Requested size: 471.76134pt x 665.48462pt.
+ [58 <./apendices/SBESFerramenta.pdf>]
 File: icmc.jpg Graphic file (type jpg)
  <use icmc.jpg>
-Package pdftex.def Info: icmc.jpg used on input line 87.
+Package pdftex.def Info: icmc.jpg used on input line 78.
 (pdftex.def)             Requested size: 93.78726pt x 42.67912pt.
- [59 <./apendices/comprovante_acmsac.pdf>]
-<apendices/acmSac2013.pdf, id=2015, page=1, 614.295pt x 794.97pt>
+ [59]
+<apendices/comprovante_acmsac.pdf, id=1988, page=1, 471.7625pt x 665.48625pt>
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 1>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page1 used on input 
+line 78.
+(pdftex.def)             Requested size: 471.76134pt x 665.48462pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 1>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page1 used on input 
+line 78.
+(pdftex.def)             Requested size: 595.44608pt x 839.95905pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 1>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page1 used on input 
+line 78.
+(pdftex.def)             Requested size: 595.44608pt x 839.95905pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 1>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page1 used on input 
+line 78.
+(pdftex.def)             Requested size: 595.44608pt x 839.95905pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 1>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page1 used on input 
+line 78.
+(pdftex.def)             Requested size: 595.44608pt x 839.95905pt.
+ [60 <./apendices/comprovante_acmsac.pdf>]
+<apendices/comprovante_acmsac.pdf, id=2010, page=2, 614.295pt x 794.97pt>
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 2>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page2 used on input 
+line 78.
+(pdftex.def)             Requested size: 775.3468pt x 1003.39001pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 2>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page2 used on input 
+line 78.
+(pdftex.def)             Requested size: 775.3468pt x 1003.39001pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 2>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page2 used on input 
+line 78.
+(pdftex.def)             Requested size: 775.3468pt x 1003.39001pt.
+ [61 <./apendices/comprovante_acmsac.pdf>]
+<apendices/comprovante_acmsac.pdf, id=2037, page=3, 597.23125pt x 845.1575pt>
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 3>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page3 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 3>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page3 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 3>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page3 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+ [62 <./apendices/comprovante_acmsac.pdf>]
+<apendices/comprovante_acmsac.pdf, id=2042, page=4, 597.23125pt x 845.1575pt>
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 4>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page4 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 4>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page4 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+File: apendices/comprovante_acmsac.pdf Graphic file (type pdf)
+
+<use apendices/comprovante_acmsac.pdf, page 4>
+Package pdftex.def Info: apendices/comprovante_acmsac.pdf, page4 used on input 
+line 78.
+(pdftex.def)             Requested size: 753.8094pt x 1066.73534pt.
+ [63 <./apendices/comprovante_acmsac.pdf>]
+File: icmc.jpg Graphic file (type jpg)
+ <use icmc.jpg>
+Package pdftex.def Info: icmc.jpg used on input line 84.
+(pdftex.def)             Requested size: 93.78726pt x 42.67912pt.
+ [64]
+<apendices/acmSac2013.pdf, id=2052, page=1, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 1>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 85.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 1>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 1>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 1>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 1>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page1 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [60
+ [65
 
  <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2049, page=2, 614.295pt x 794.97pt>
+<apendices/acmSac2013.pdf, id=2085, page=2, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 2>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 2>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 2>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page2 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [61 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2080, page=3, 614.295pt x 794.97pt>
+ [66 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2118, page=3, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 3>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 3>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 3>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page3 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [62 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2087, page=4, 614.295pt x 794.97pt>
+ [67 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2125, page=4, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 4>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 4>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 4>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page4 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [63 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2112, page=5, 614.295pt x 794.97pt>
+ [68 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2149, page=5, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 5>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 5>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 5>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page5 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [64 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2133, page=6, 614.295pt x 794.97pt>
+ [69 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2170, page=6, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 6>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 6>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 6>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page6 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [65 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2604, page=7, 614.295pt x 794.97pt>
+ [70 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2641, page=7, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 7>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 7>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 7>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page7 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [66 <./apendices/acmSac2013.pdf>]
-<apendices/acmSac2013.pdf, id=2609, page=8, 614.295pt x 794.97pt>
+ [71 <./apendices/acmSac2013.pdf>]
+<apendices/acmSac2013.pdf, id=2646, page=8, 614.295pt x 794.97pt>
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 8>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
  <use apendices/acmSac2013.pdf, page 8>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: apendices/acmSac2013.pdf Graphic file (type pdf)
 
 <use apendices/acmSac2013.pdf, page 8>
-Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 88.
+Package pdftex.def Info: apendices/acmSac2013.pdf, page8 used on input line 85.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [67 <./apendices/acmSac2013.pdf>]
-<apendices/comprovante_lawasp.pdf, id=2613, 457.71pt x 263.98625pt>
+ [72 <./apendices/acmSac2013.pdf>]
+<apendices/comprovante_lawasp.pdf, id=2651, 457.71pt x 263.98625pt>
 File: apendices/comprovante_lawasp.pdf Graphic file (type pdf)
 
 <use apendices/comprovante_lawasp.pdf>
-Package pdftex.def Info: apendices/comprovante_lawasp.pdf used on input line 98
+Package pdftex.def Info: apendices/comprovante_lawasp.pdf used on input line 95
 .
 (pdftex.def)             Requested size: 457.7089pt x 263.9856pt.
 File: icmc.jpg Graphic file (type jpg)
  <use icmc.jpg>
-Package pdftex.def Info: icmc.jpg used on input line 105.
+Package pdftex.def Info: icmc.jpg used on input line 102.
 (pdftex.def)             Requested size: 93.78726pt x 42.67912pt.
- [68 <./apendices/comprovante_lawasp.pdf>]
-<apendices/laWasp2012Poster.pdf, id=2648, page=1, 597.50829pt x 845.0471pt>
+ [73 <./apendices/comprovante_lawasp.pdf>]
+<apendices/laWasp2012Poster.pdf, id=2685, page=1, 597.50829pt x 845.0471pt>
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 1>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page1 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 1>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page1 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 1>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page1 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 1>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page1 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 1>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page1 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
- [69
+ [74
 
  <./apendices/laWasp2012Poster.pdf>]
-<apendices/laWasp2012Poster.pdf, id=2674, page=2, 597.50829pt x 845.0471pt>
+<apendices/laWasp2012Poster.pdf, id=2711, page=2, 597.50829pt x 845.0471pt>
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 2>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page2 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 2>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page2 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
 File: apendices/laWasp2012Poster.pdf Graphic file (type pdf)
 
 <use apendices/laWasp2012Poster.pdf, page 2>
 Package pdftex.def Info: apendices/laWasp2012Poster.pdf, page2 used on input li
-ne 106.
+ne 103.
 (pdftex.def)             Requested size: 593.51347pt x 839.39731pt.
- [70 <./apendices/laWasp2012Poster.pdf>]
+ [75 <./apendices/laWasp2012Poster.pdf>]
 File: icmc.jpg Graphic file (type jpg)
  <use icmc.jpg>
-Package pdftex.def Info: icmc.jpg used on input line 112.
+Package pdftex.def Info: icmc.jpg used on input line 109.
 (pdftex.def)             Requested size: 93.78726pt x 42.67912pt.
- [71]
-<apendices/Ficha_do_Aluno.pdf, id=2742, page=1, 597.23125pt x 845.1575pt>
+ [76]
+<apendices/Ficha_do_Aluno.pdf, id=2779, page=1, 597.23125pt x 845.1575pt>
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 1>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page1 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 1>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page1 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 1>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page1 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 1>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page1 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 1>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page1 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
- [72 <./apendices/Ficha_do_Aluno.pdf>] <apendices/Ficha_do_Aluno.pdf, id=2774, 
+ [77 <./apendices/Ficha_do_Aluno.pdf>] <apendices/Ficha_do_Aluno.pdf, id=2811, 
 page=2, 597.23125pt x 845.1575pt>
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 2>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page2 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 2>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page2 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
 File: apendices/Ficha_do_Aluno.pdf Graphic file (type pdf)
 
 <use apendices/Ficha_do_Aluno.pdf, page 2>
 Package pdftex.def Info: apendices/Ficha_do_Aluno.pdf, page2 used on input line
- 112.
+ 109.
 (pdftex.def)             Requested size: 593.23828pt x 839.50696pt.
- [73 <./apendices/Ficha_do_Aluno.pdf>]) (./primeiro_relatorio_FAPESP.aux)
+ [78 <./apendices/Ficha_do_Aluno.pdf>]) (./primeiro_relatorio_FAPESP.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
@@ -2335,10 +2422,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6013 strings out of 493488
- 90229 string characters out of 3141326
+ 6023 strings out of 493488
+ 90632 string characters out of 3141326
  236533 words of memory out of 3000000
- 9092 multiletter control sequences out of 15000+200000
+ 9101 multiletter control sequences out of 15000+200000
  22857 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,18n,47p,1294b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2388,10 +2475,10 @@ ive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/201
 st/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on primeiro_relatorio_FAPESP.pdf (74 pages, 6484052 bytes).
+Output written on primeiro_relatorio_FAPESP.pdf (79 pages, 7536121 bytes).
 PDF statistics:
- 2873 PDF objects out of 2984 (max. 8388607)
- 1929 compressed objects within 20 object streams
+ 2910 PDF objects out of 2984 (max. 8388607)
+ 1948 compressed objects within 20 object streams
  0 named destinations out of 1000 (max. 500000)
- 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
