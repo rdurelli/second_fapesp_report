@@ -107,7 +107,7 @@ Na Figura~\ref{fig:architecture} é ilustrado a arquitetura do \textit{plug-in} 
 
 A segunda camada, \textit{Tool Core}, é onde todas as refatorações fornecidas pelo \textit{plug-in} foram implementadas. A ultima camada é onde a interface gráfica do \textit{plug-in} foi desenvolvida. Vale ressaltar que um artigo sobre esse \textit{plugin} foi publicado no  2nd \textit{Workshop on Software Visualization, Evolution and Maintenance} (VEM). O bolsista esteve presente nesse evento, apresentado o artigo e participando das sessões técnicas e palestras. Mais detalhes sobre este \textit{plugin} podem ser encontrados na cópia desse artigo no Apêndice C.
 
-\subsection{Um Metamodelo para Especificar Refatorações para o KDM}
+\subsection{Um Metamodelo para Especificar Refatorações para o KDM - (\textit{Refac-KDM})}
 
 Durante o desenvolvimento e evolução de software novas funcionalidades geralmente são adicionadas ou são ajustadas a novas exigências. Devido a tais alterações, a flexibilidade da arquitetura desse sistema pode ser um fator desafiador. Em outros casos, após aplicar um conjunto de alterações a arquitetura continua perfeitamente adequada. Porém, usualmente é necessário aplicar mudanças na arquitetura dessa sistema para confortar tais alterações. 
 
@@ -138,7 +138,7 @@ Com base no exemplo anterior é possível identificar algumas idéias iniciais. 
  \label{fig:METAMODELO}
 \end{figure}
 
-Para reutilizar a parte estrutural de uma refatoração, um modelo que represente essa estrutura é necessário. Para o exemplo \textit{RenameElement}, a estrutura basicamente consiste de uma \textit{metaclass} em um \textit{metamodel}. Outras refatorações, tais como \textit{ExtractClass} possuem restrições estruturais mais complexas, como a exigência de que a classe que será extraída esteja contida em um \textit{container object}. O metamodelo de refatorações para o KDM foi definido utilizado EMF (Figura~\ref{fig:processoDOMETAMODELO} \ding{186}). O metamodelo pode ser visualizado na Figura~\ref{fig:METAMODELO}. As \textit{metaclasses} que compõem o metamodelo de refatoração para o KDM são definidas da seguinte forma:
+Para reutilizar a parte estrutural de uma refatoração, um modelo que represente essa estrutura é necessário. Para o exemplo \textit{RenameElement}, a estrutura basicamente consiste de uma \textit{metaclass} em um \textit{metamodel}. Outras refatorações, tais como \textit{ExtractClass} possuem restrições estruturais mais complexas, como a exigência de que a classe que será extraída esteja contida em um \textit{container object}. O metamodelo de refatorações para o KDM foi definido utilizado EMF (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{186}). O metamodelo propriamente dito, Refac-KDM, pode ser visualizado na Figura~\ref{fig:METAMODELO}. As \textit{metaclasses} que compõem o metamodelo de refatoração, ou seja, Refac-KDM são definidas da seguinte forma:
  
 \begin{itemize}
 
@@ -160,7 +160,31 @@ Para reutilizar a parte estrutural de uma refatoração, um modelo que represent
 
 \item \textit{ExtractClass} representa uma instância da refatoração \textit{extract class}. A semântica para a utilização da \textit{metaclass} \textit{ExtractClass} consiste em especificar em: (\textit{i}) a \textit{ClassUnit} (\textit{sourceClass}) que armazena todos os atributos e todos os métodos, (\textit{ii}) uma lista de atributos (\textit{attrsToBeExtracted}) e uma lista de métodos (\textit{methsToBeExtracted}) para serem extraídos, (\textit{iii}) uma \textit{string} que representa o nome (\textit{newName}) da classe que foi extraída, (\textit{iv}) bem como um \textit{Package} (\textit{targetPackage}) que irá receber a classe criada após a execução da refatoração.
 
+\item \textbf{TERMINAR AQUI TODAS AS METACLASSES}
+
 \end{itemize} 
 
+\subsubsection{Uma DSL para auxiliar a instânciação de refatorações com base no Refac-KDM}
 
+A fim de utilizar plenamente as vantagens das refatorações, os desenvolvedores precisam ter um bom conhecimento de linguagem de programação avançada. Na verdade os desenvolvedores devem estar familiarizados como as semânticas das refatorações (por exemplo, qual(is) é (são) o(s) pré-requisito(s) para a execução de uma refatoração) e como/onde utilizar programar tais refatorações. A instanciação de uma refatoração utilizando o Refac-KDM é bastante verbosa, complexa e propensa a erros, uma vez que exige conhecimento avançadas de refatoração e habilidades avançadas de programação em relação a API Ecore. Com o objetivo de diminuir a quantidade de código-fonte, esforço e competência necessários para instanciar refatorações utilizando o Refac-KDM, foi desenvolvido uma linguagem especifica de domínio (do inglês, \textit{Domain-Specific Language} - DSL) que auxilia a instanciação de refatorações sistematicamente. 
 
+A DSL para auxiliar a instanciação do Refac-KDM foi desenvolvida utilizando Xtext~\ref{sec:apoio_ferramental}\footnote{\texttt{https://www.eclipse.org/Xtext/}}. Xtext é um \textit{framework} do Eclipse\footnote{\texttt{https://www.eclipse.org}} que facilita a definição de gramática\footnote{Gramáticas representam a definição formal de um sintaxe textual concreta. Consistem em um conjunto de regras de produção para definir como o \textit{textual input} (, i.e., sentenças) são representadas. Basicamente, as regras de produção podem ser representadas utilizando \textit{Backus–Naur Form} (BNF), por exemplo, \textit{S ::= P1 ... Pn}, essa gramática define um símbolo \textit{S} por um conjunto de expressões \textit{P1 ... Pn}.} 
+com o intuito de automatizar e agilizar o processo de desenvolvimento de DSLs.
+
+ Em Xtext a gramática para especificar DSLs segue uma notação similar ao BNF chamada de \textit{parser rules}. Tais regras representam a sintaxe concreta da DSL. Note que para facilitar o entendimento da DSL, trechos da mesma são mostradas em listagens de códigos separados. Na listagem de código~\ref{lst:dsl_part_1} é ilustrado o primeiro trecho da gramática da DSL criada. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle={\scriptsize}, mathescape=true, label={lst:dsl_part_1}, caption={Gramática da DSL - parte 1}]
+	
+$\textrm{\ding{182}}$ grammar com.br.refactoring.xtext.Dsl with org.eclipse.xtext.common.Terminals 
+$\textrm{\ding{183}}$ import ``platform:/resource/com.br.refactoring.dsl/model/kdm_refactoring.ecore'
+$\textrm{\ding{184}}$ import ``http://www.eclipse.org/emf/2002/Ecore'' as ecore
+Model: 
+	$\textrm{\ding{185}}$ `model' name=ID
+	$\textrm{\ding{186}}$ (imports+=Import)$^{*}$
+	$\textrm{\ding{187}}$ (contains+=Type)$^{*}$
+;
+\end{lstlisting}
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_2}, caption={Gramática da DSL - parte 2}]
+	$\textrm{\ding{182}}$ terminal ID: (`a'..`z' | `A'..`Z'|`_')(`a'..`z' | `A'..`Z'|`_'|`0'..`9')*;
+\end{lstlisting}

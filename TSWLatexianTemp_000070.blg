@@ -1,0 +1,159 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_000070.aux
+The style file: icmc2.bst
+Illegal, another \bibstyle command---line 103 of file TSWLatexianTemp_000070.aux
+ : \bibstyle
+ :          {icmc}
+I'm skipping whatever remains of this command
+Database file #1: referencias2.bib
+Repeated entry---line 2767 of file referencias2.bib
+ : @book{ADMBook
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2777 of file referencias2.bib
+ : @article{On_the_unification_power_of_models
+ :                                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2789 of file referencias2.bib
+ : @book{ADMCHAPTERR
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2817 of file referencias2.bib
+ : @misc{ISOKDM
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2846 of file referencias2.bib
+ : @article{PerezCastillo:2011jo
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2881 of file referencias2.bib
+ : @article{Fokaefs2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2924 of file referencias2.bib
+ : @inproceedings{Griffith2011
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2949 of file referencias2.bib
+ : @article{Olszak:2012:RJP:2108329.2108539
+ :                                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2972 of file referencias2.bib
+ : @inproceedings{Sneed:2005
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3209 of file referencias2.bib
+ : @article{Mens04
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3219 of file referencias2.bib
+ : @article{Demeyer1
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3228 of file referencias2.bib
+ : @article{Demeyer2
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3691 of file referencias2.bib
+ : @article{RefactoringJava
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3774 of file referencias2.bib
+ : @book{refactImpro
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3784 of file referencias2.bib
+ : @phdthesis{Opdy92b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4407 of file referencias2.bib
+ : @misc{OMGADM
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4803 of file referencias2.bib
+ : @inproceedings{Kiczales
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4933 of file referencias2.bib
+ : @book{Wohlin
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4964 of file referencias2.bib
+ : @article{bisbal
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4993 of file referencias2.bib
+ : @article{tilley
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5547 of file referencias2.bib
+ : @phdthesis{Griswold
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5746 of file referencias2.bib
+ : @book{Kleppe:2003
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Warning--empty school in Griswold
+Warning--empty journal in tilley
+You've used 28 entries,
+            2708 wiz_defined-function locations,
+            803 strings with 10697 characters,
+and the built_in function-call counts, 14280 in all, are:
+= -- 1397
+> -- 664
+< -- 24
++ -- 261
+- -- 228
+* -- 1244
+:= -- 2449
+add.period$ -- 56
+call.type$ -- 28
+change.case$ -- 222
+chr.to.int$ -- 25
+cite$ -- 30
+duplicate$ -- 686
+empty$ -- 1020
+format.name$ -- 302
+if$ -- 2950
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 32
+newline$ -- 94
+num.names$ -- 112
+pop$ -- 230
+preamble$ -- 1
+purify$ -- 188
+quote$ -- 0
+skip$ -- 504
+stack$ -- 0
+substring$ -- 672
+swap$ -- 183
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 237
+warning$ -- 2
+while$ -- 117
+width$ -- 0
+write$ -- 308
+(There were 23 error messages)

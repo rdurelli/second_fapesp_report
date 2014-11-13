@@ -22,6 +22,17 @@
 \usepackage{setspace}
 \usepackage{lscape}
 
+\usepackage{listings}
+\lstdefinelanguage{Xtext}{
+ morekeywords={grammar, with, hidden, generate, as, import, returns, current, terminal, enum, ID},
+ keywordstyle=[1]{\textbf},
+ morecomment=[l]{//}, 
+ morecomment=[s]{/*}{*/}, 
+ morestring=[b]",
+ tabsize=2}
+ 
+\newcommand{\lstXtext}[1]{\lstinline[breaklines=true,language=Xtext,basicstyle=\listingsfontinline,mathescape,literate={\-}{}{0\discretionary{-}{}{}}]\S#1\S}
+
 \DeclareGraphicsExtensions{.png,.jpg,.pdf,.mps}
 \bibliographystyle{icmc2}
 
@@ -102,9 +113,9 @@
 \section{Introdução}
 	\input{text/introduction}
 
-\section{Plano de Trabalho}\label{plano_trabalho}
-	\input{text/plano_de_trabalho}
-		
+%\section{Plano de Trabalho}\label{plano_trabalho}
+%	\input{text/plano_de_trabalho}
+
 \section{Fundamentação Teórica}
 	\input{text/background}
 		\subsection{Resumo do Plano Inicial}\label{resumo_plano_inicial}
