@@ -1,10 +1,10 @@
+Nesta seção são apresentadas as atividades desenvolvidas no período de Maio/2013 a Fevereiro/2015, previstas no plano inicial que foi enviado à FAPESP. Vale ressaltar que, em parte do período deste relatório, o bolsista esteve no exterior realização um estágio sanduíche no \textit{Institut National de Recherche en Informatique et en Automatique} (INRIA) . As atividades realizadas são brevemente descritas nas subseções a seguir.
+
 \subsection{Estágio no Exterior}
 
 O estágio contou com o apoio financeiro da CNPQ (Processo: 241028/2012-4) e foi realizado no \textit{Institut national de recherche en informatique et en automatique} (INRIA), França. O aluno ficou na França por um ano (Abril de 2013 - Abril de 2014) sob a supervisão do professor Doutor Nicolas Anquetil. O grupo de pesquisa é especializado em remodularização e modernização de sistemas orientados a objetos com enfoque em \textit{Model-Driven Development}. 
 
-Dois projetos foram conduzidos durante a estadia na França, descritos nas Seções X e Y. É importante enfatizar que ambos os projetos são diretamente relacionados à realização deste projeto de doutorado.
-
-O vínculo com o CNPQ foi encerrado no mês de Abril e a bolsa da FAPESP foi reatividade. Uma cópia do parecer emitido pelo orientador no exterior pode ser encontrado no Apêndice A.
+O vínculo com o CNPQ foi encerrado no mês de Abril e a bolsa da FAPESP foi reatividade. Uma cópia do parecer emitido pelo orientador no exterior pode ser encontrado no Anexo~\ref{anexo:comprovante_nicolas}.
 
 \subsection{Mapeamento Sistemático}
 
@@ -109,7 +109,7 @@ A segunda camada, \textit{Tool Core}, é onde todas as refatorações fornecidas
 
 \subsection{Um Metamodelo para Especificar Refatorações para o KDM - (\textit{Refac-KDM})}
 
-Durante o desenvolvimento e evolução de software novas funcionalidades geralmente são adicionadas ou são ajustadas a novas exigências. Devido a tais alterações, a flexibilidade da arquitetura desse sistema pode ser um fator desafiador. Em outros casos, após aplicar um conjunto de alterações a arquitetura continua perfeitamente adequada. Porém, usualmente é necessário aplicar mudanças na arquitetura dessa sistema para confortar tais alterações. 
+Durante o desenvolvimento e evolução de software novas funcionalidades geralmente são adicionadas ou são ajustadas a novas exigências. Devido a tais alterações, a flexibilidade da arquitetura desse sistema pode ser um fator desafiador. Em outros casos, após aplicar um conjunto de alterações a arquitetura continua perfeitamente adequada. Porém, usualmente é necessário aplicar mudanças na arquitetura desse sistema para confortar tais alterações. 
 
 Para melhorar o projeto de um determinado software, geralmente os engenheiros de software gastam uma quantidade significativa de tempo reestruturando o software manualmente. No entanto, reestruturar código manualmente além de ser uma tarefa que demanda tempo é totalmente propicia a erros. Não importa a atenção dispendida pelo engenheiro de software durante a atividade de reestruturação, se o sistema é relativamente grande, há uma boa chance de que o mesmo irá ter o seu comportamento alterado após tal atividade. Como ressaltado anteriormente é de suma importância que o comportamento do sistema seja preservado após a reestruturação, assim, o conceito de refatoração deve ser aplicado (ver Seção~\ref{sub:refatoracao}).
 
@@ -119,17 +119,21 @@ Um olhar mais atento à reutilização de refatorações levanta a questão sobr
 
 Embora a ADM e, principalmente o KDM, tenham sido propostos para apoiar a modernização de sistemas legados, até o momento não existem propostas de um metamodelo para especificar refatorações para o KDM. Portanto, os engenheiros de modernização precisam desenvolver suas próprias soluções para transformar instâncias KDM origem em alvo. Durante o mapeamento sistemático conduzido e publicado pelo outorgado~\citep{iri_systematic_mapping_ADM_2014} (ver Apêndice X) pôde-se observar na literatura a carência de estudos que definem um metamodelo para especificar refatorações para KDM. Sem a adequada representação de refatorações no KDM, a realização de uma refatoração pode se tornar propensa a erros. Assim, é de suma importância definir uma extensão para o KDM em que os engenheiros de modernização possam especificar refatorações independentes de plataforma.
 
-Como já ressaltado existe uma forte necessidade de reutilizar refatorações no contexto da ADM e, principalmente para o metamodelo KDM. Para permitir tal reutilização, as partes de refatorações que podem ser generalizadas devem ser separadas das que são específicas. Por exemplo, considere a refatoração \textit{RenameElement}. As etapas necessárias para executar tal refatoração são iguais, não importa que tipo de elemento precisa ser renomeado. Por exemplo, depois de alterar o valor de um atributo do tipo \textit{String}, todas as referências daquele elemento precisa também ser atualizado. O atributo concreto pode variar dependendo da linguagem de programação, mas o procedimento é o mesmo.	
-
-Com base no exemplo anterior é possível identificar algumas idéias iniciais. Na Figura~\ref{fig:processoDOMETAMODELO} é ilustrado os principais conceitos que foram utilizados para criar o metamodelo de refatoração para o KDM. Em primeiro lugar, as partes estruturais de uma refatoração (classes, métodos, atributos, etc), ou seja, os elementos que são transformados, foram considerados bons candidatos para o reuso (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{182}) e assim utilizados como base para a criação do metamodelo de refatoração. Em segundo lugar, foi possível identificar na literatura pesquisas que executam uma refatoração utilizando um conjunto de composições de transformações por meio de linguagens de transformações, tais como OCL e ATL (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{183}). Além disso, também foi constatado que a grande maioria das refatorações são realizadas utilizando operações primárias, tais como: \textit{add}, \textit{remove}, \textit{move}, \textit{create}, entre outras. Tais operações primárias também foram incluídas no metamodelo de refatoração para o KDM (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{184}). Assim, os engenheiros de modernização podem realizar um \textit{chain of primary operations} permitindo a especificar/criar novas refatorações. O catalogo de refatoração proposto por Fowler~\citep{refactImpro} também foi considerado durante a criação do metamodelo de refatoração para o KDM como pode ser observado na Figura~\ref{fig:processoDOMETAMODELO} \ding{185}.
-
-
 \begin{figure}[!h]
  \centering
- \scalebox{0.6}{\includegraphics{figuras/ProcessoDOMetamodelo}}
+ \scalebox{0.6}{\includegraphics{figuras/ProcessoDoMetamodelo_COm_tudo}}
 \caption{Princípios e critérios utilizados para criar o metamodelo de refatoração para o KDM}
  \label{fig:processoDOMETAMODELO}
 \end{figure}
+
+Como já ressaltado existe uma forte necessidade de reutilizar refatorações no contexto da ADM e, principalmente para o metamodelo KDM. Para permitir tal reutilização, as partes de refatorações que podem ser generalizadas devem ser separadas das que são específicas. Por exemplo, considere a refatoração \textit{RenameElement}. As etapas necessárias para executar tal refatoração são iguais, não importa que tipo de elemento precisa ser renomeado. Por exemplo, depois de alterar o valor de um atributo do tipo \textit{String}, todas as referências daquele elemento precisa também ser atualizado. O atributo concreto pode variar dependendo da linguagem de programação, mas o procedimento é o mesmo.	
+
+Com base no exemplo anterior é possível identificar algumas idéias iniciais. Na parte superior da Figura~\ref{fig:processoDOMETAMODELO} são ilustrados os principais conceitos que foram utilizados para criar o metamodelo de refatoração para o KDM. Em primeiro lugar, as partes estruturais de uma refatoração (classes, métodos, atributos, etc), ou seja, os elementos que são transformados, foram considerados bons candidatos para o reuso (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{182}) e assim utilizados como base para a criação do metamodelo de refatoração. Em segundo lugar, foi possível identificar na literatura pesquisas que executam uma refatoração utilizando um conjunto de composições de transformações por meio de linguagens de transformações, tais como OCL e ATL (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{183}). Além disso, também foi constatado que a grande maioria das refatorações são realizadas utilizando operações primárias, tais como: \textit{add}, \textit{remove}, \textit{move}, \textit{create}, entre outras. Tais operações primárias também foram incluídas no metamodelo de refatoração para o KDM (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{184}). Assim, os engenheiros de modernização podem realizar um \textit{chain of primary operations} permitindo a especificar/criar novas refatorações. O catalogo de refatoração proposto por Fowler~\citep{refactImpro} também foi considerado durante a criação do metamodelo de refatoração para o KDM como pode ser observado na Figura~\ref{fig:processoDOMETAMODELO} \ding{185}.
+
+
+
+
+\FloatBarrier
 
 \begin{figure}[h]
  \centering
@@ -137,7 +141,7 @@ Com base no exemplo anterior é possível identificar algumas idéias iniciais. 
 \caption{Metamodel de Refatoração para o KDM}
  \label{fig:METAMODELO}
 \end{figure}
-
+\FloatBarrier
 Para reutilizar a parte estrutural de uma refatoração, um modelo que represente essa estrutura é necessário. Para o exemplo \textit{RenameElement}, a estrutura basicamente consiste de uma \textit{metaclass} em um \textit{metamodel}. Outras refatorações, tais como \textit{ExtractClass} possuem restrições estruturais mais complexas, como a exigência de que a classe que será extraída esteja contida em um \textit{container object}. O metamodelo de refatorações para o KDM foi definido utilizado EMF (ver Figura~\ref{fig:processoDOMETAMODELO} \ding{186}). O metamodelo propriamente dito, Refac-KDM, pode ser visualizado na Figura~\ref{fig:METAMODELO}. As \textit{metaclasses} que compõem o metamodelo de refatoração, ou seja, Refac-KDM são definidas da seguinte forma:
  
 \begin{itemize}
@@ -164,27 +168,291 @@ Para reutilizar a parte estrutural de uma refatoração, um modelo que represent
 
 \end{itemize} 
 
-\subsubsection{Uma DSL para auxiliar a instânciação de refatorações com base no Refac-KDM}
+\subsubsection{Uma DSL para auxiliar a instânciação de refatorações com base no Refac-KDM}\label{sec:DSL}
 
-A fim de utilizar plenamente as vantagens das refatorações, os desenvolvedores precisam ter um bom conhecimento de linguagem de programação avançada. Na verdade os desenvolvedores devem estar familiarizados como as semânticas das refatorações (por exemplo, qual(is) é (são) o(s) pré-requisito(s) para a execução de uma refatoração) e como/onde utilizar programar tais refatorações. A instanciação de uma refatoração utilizando o Refac-KDM é bastante verbosa, complexa e propensa a erros, uma vez que exige conhecimento avançadas de refatoração e habilidades avançadas de programação em relação a API Ecore. Com o objetivo de diminuir a quantidade de código-fonte, esforço e competência necessários para instanciar refatorações utilizando o Refac-KDM, foi desenvolvido uma linguagem especifica de domínio (do inglês, \textit{Domain-Specific Language} - DSL) que auxilia a instanciação de refatorações sistematicamente. 
+A fim de utilizar plenamente as vantagens das refatorações, os desenvolvedores precisam ter um bom conhecimento de linguagem de programação avançada. Na verdade os desenvolvedores devem estar familiarizados como as semânticas das refatorações (por exemplo, qual(is) é (são) o(s) pré-requisito(s) para a execução de uma refatoração) e como/onde utilizar programar tais refatorações. A instanciação de uma refatoração utilizando o Refac-KDM é bastante verbosa, complexa e propensa a erros, uma vez que exige conhecimento avançadas de refatoração e habilidades avançadas de programação em relação a API Ecore. Com o objetivo de diminuir a quantidade de código-fonte, esforço e competência necessários para instanciar refatorações utilizando o Refac-KDM, foi desenvolvido uma linguagem especifica de domínio (do inglês, \textit{Domain-Specific Language} - DSL) que auxilia a instanciação de refatorações sistematicamente. Na parte inferior a esquerda da Figura~\ref{fig:processoDOMETAMODELO} é possível visualizar um exemplo da sintaxe da DSL criada para auxiliar a instanciação do metamodelo Refac-KDM.
 
 A DSL para auxiliar a instanciação do Refac-KDM foi desenvolvida utilizando Xtext~\ref{sec:apoio_ferramental}\footnote{\texttt{https://www.eclipse.org/Xtext/}}. Xtext é um \textit{framework} do Eclipse\footnote{\texttt{https://www.eclipse.org}} que facilita a definição de gramática\footnote{Gramáticas representam a definição formal de um sintaxe textual concreta. Consistem em um conjunto de regras de produção para definir como o \textit{textual input} (, i.e., sentenças) são representadas. Basicamente, as regras de produção podem ser representadas utilizando \textit{Backus–Naur Form} (BNF), por exemplo, \textit{S ::= P1 ... Pn}, essa gramática define um símbolo \textit{S} por um conjunto de expressões \textit{P1 ... Pn}.} 
-com o intuito de automatizar e agilizar o processo de desenvolvimento de DSLs.
+com a utilização de um metamodelo que foi definido utilizando EMF. Xtext tem como principal objetivo automatizar e agilizar o processo de desenvolvimento de DSLs.
 
- Em Xtext a gramática para especificar DSLs segue uma notação similar ao BNF chamada de \textit{parser rules}. Tais regras representam a sintaxe concreta da DSL. Note que para facilitar o entendimento da DSL, trechos da mesma são mostradas em listagens de códigos separados. Na listagem de código~\ref{lst:dsl_part_1} é ilustrado o primeiro trecho da gramática da DSL criada. 
+ Em Xtext a gramática para especificar DSLs segue uma notação similar ao \textit{Backus–Naur Form} (BNF) chamada de regras do \textit{parser}. Tais regras representam a sintaxe concreta da DSL. Note que para facilitar o entendimento da DSL, trechos da mesma são mostradas em listagens de códigos separados, bem como símbolos para explanar o propósito de uma terminada linha da gramática. Na Listagem de código~\ref{lst:dsl_part_1} é ilustrado o primeiro trecho da gramática da DSL. 
 
 \begin{lstlisting}[language=Xtext, frame=single, basicstyle={\scriptsize}, mathescape=true, label={lst:dsl_part_1}, caption={Gramática da DSL - parte 1}]
 	
-$\textrm{\ding{182}}$ grammar com.br.refactoring.xtext.Dsl with org.eclipse.xtext.common.Terminals 
-$\textrm{\ding{183}}$ import ``platform:/resource/com.br.refactoring.dsl/model/kdm_refactoring.ecore'
+$\textrm{\ding{182}}$ grammar com.br.refactoring.xtext.RefacKdm with org.eclipse.xtext.common.Terminals 
+$\textrm{\ding{183}}$ import ``platform:/resource/com.br.refactoring.RefacKdm/model/RefacKdm.ecore'
 $\textrm{\ding{184}}$ import ``http://www.eclipse.org/emf/2002/Ecore'' as ecore
 Model: 
 	$\textrm{\ding{185}}$ `model' name=ID
 	$\textrm{\ding{186}}$ (imports+=Import)$^{*}$
-	$\textrm{\ding{187}}$ (contains+=Type)$^{*}$
-;
+	$\textrm{\ding{187}}$ (contains+=Type)$^{*}$;
 \end{lstlisting}
+
+A gramática começa com a definição do nome da DSL (RefacKdm) (ver Listagem de código~\ref{lst:dsl_part_1} \ding{182}). Em sequência é definido os metamodelos que devem ser importados para serem utilizados durante a criação da DSL, ou seja, o metamodelo RefacKdm\ding{183}  e o Ecore\ding{184}.
+
+Em seguida é criado a primeira regra. Essa regra começa com a definição da \textit{metaclass} \texttt{Model}, o corpo da regra começa após os \texttt{:}. Primeiramente para o entendimento da regra, é importante destacar que literais de \textit{string} (que em Xtext podem ser expressas com aspas simples ou duplas) definem palavras-chave da DSL. Como pode ser observado na Listagem de código~\ref{lst:dsl_part_1} é esperado a palavra-chave \texttt{model}\ding{185} seguido por um \texttt{ID}. A gramática que rege o objeto \texttt{ID} é definida como uma sequência ilimitada de maiúsculas e minúsculas, números e o carácter de sublinhado, embora possa não começa por um dígito. A gramática que representa o nó \texttt{ID}\ding{182} pode ser visualizada na Listagem de código~\ref{lst:dsl_part_2}. 
 
 \begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_2}, caption={Gramática da DSL - parte 2}]
 	$\textrm{\ding{182}}$ terminal ID: (`a'..`z' | `A'..`Z'|`_')(`a'..`z' | `A'..`Z'|`_'|`0'..`9')*;
 \end{lstlisting}
+
+Ainda na Listagem de código~\ref{lst:dsl_part_1}  a expressão \texttt{(imports+=Import)$^{*}$}\ding{186} especifica que pode-se instanciar várias instancias da \textit{metaclass} \texttt{Import}. O operador estrela, \texttt{*}, ilustra que o número de elementos (nesse caso \texttt{Import}) é arbitrário; em particular, ele pode ser qualquer número \texttt{>=} 0. Operador \texttt{+=} por sua vez representa que a propriedade \texttt{imports} será uma lista do tipo \texttt{Import}. A expressão \texttt{(contains+=Type)$^{*}$}\ding{187} descrita na Listagem de código~\ref{lst:dsl_part_1} especifica que pode-se instanciar várias instâncias da \textit{metaclass} \texttt{Type}.
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_3}, caption={Gramática da DSL - parte 3}]
+Type: 
+	$\textrm{\ding{182}}$ Refactoring | FormalizedDefinition;
+Refactoring: 
+	$\textrm{\ding{183}}$ (RenameFeature | MovingFeaturesBetweenObjects 
+		$\textrm{\ding{229}}$ | OrganizingData | DealingWithGeneralization | PrimaryOperation);
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{Type} é interessante, uma vez que \texttt{Type} representa uma \textit{metaclass} abstrata com dois subtipos, como pode ser observado na Listagem de código~\ref{lst:dsl_part_3}. Ainda nessa listagem, é possível observar que o operador, \texttt{|}, é utilizado para expressar alternativas \ding{182}, o que é traduzido para o conceito de herança no metamodelo do Refac-KDM. A definição da \textit{metaclass} \texttt{Refactoring} é ilustrada por um conjunto de \textit{submetaclass} \ding{183} que são expressas na gramática da DSL pelo operador, \texttt{|}, a saber: \texttt{RenameFeature}, \texttt{MovingFeaturesBetweenObjects}, \texttt{OrganizingData}, \texttt{DealingWithGeneralization} and \texttt{Create}.
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_4}, caption={Gramática da DSL - parte 4}]
+RenameFeature: 
+	$\textrm{\ding{182}}$ `Rename_Feature' name = ID `{'
+	 	$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ (allRefactorings+=RenameClass)$^{*}$
+	 	$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ (allRefactorings+=RenameAttribute)$^{*}$
+	 	$\textrm{\ding{229}}$ $\textrm{\ding{185}}$ (allRefactorings+=RenameMethod)$^{*}$
+   `}';
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{RenameFeature} é ilustrada na Listagem de código~\ref{lst:dsl_part_4}. Como pode ser observado essa regra começa com a definição da palavra-chave \texttt{Rename\_Feature} seguida por um \texttt{ID} \ding{182}. As expressões descritas em \ding{183}, \ding{184} e \ding{185} representam que pode haver qualquer número de instancias das \textit{metaclasses} \texttt{RenameClass}, \texttt{RenameAttribute} e \texttt{RenameMethod}, respectivamente. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_5}, caption={Gramática da DSL - parte 5}]
+RenameClass: 
+	$\textrm{\ding{182}}$ `Refactoring_RenameClass' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ `classToBeRenamed' `:' classToBeRenamed = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ `newName' `:' newName = ID
+	`}';
+RenameAttribute: 
+	`Refactiong_RenameAttribute' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' ':' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{185}}$ `attributeToBeRenamed' `:' attributeToBeRenamed = [StorableUnit]
+		$\textrm{\ding{229}}$ `newName' `:' newName = ID
+	`}';
+RenameMethod: 
+	`Refactoring_RenameMethod' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{186}}$ `methodToBeRenamed' `:' methodToBeRenamed = [MethodUnit]
+		$\textrm{\ding{229}}$ `newName' `:' newName = ID
+	`}';
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{RenameClass} é ilustrada na Listagem de código~\ref{lst:dsl_part_5}. A regra começa com a definição da palavra-chave \texttt{Refactoring\_RenameClass} seguida por um \texttt{ID} e a chave, \texttt{\{} \ding{182}. Essa chave representa o inicio do escopo relacionado a refatoração \textit{Rename Class}, ou seja, é um contexto delimitante aos quais valores e expressões estão associados a refatoração. Em seguida a palavra-chave \texttt{classToBeRenamed} é esperada, seguido por \texttt{:} \ding{183}. Posteriormente uma instância da \texttt{ClassUnit} que será renomeada deve ser atribuída. Em Xtext, a notação \texttt{classToBeRenamed = [ClassUnit]} indica que é espero uma instância da \textit{metaclass} \texttt{ClassUnit}, e não apenas um nome. Em seguida a palavra-chave \texttt{newName} é esperado, seguido por \texttt{:}, finalmente o novo nome da classe deve ser especificado \ding{184}.
+
+A gramática que define a semântica da refatoração \textit{rename attribute} é similar a anterior. Como visualizado na Listagem de código~\ref{lst:dsl_part_5} \ding{185}, a única diferença é que deve-se atribuir uma instância da \textit{metaclass} \texttt{StorableUnit}, ou seja, o atributo que almeja-se renomear.  A semântica da refatoração \textit{rename method} é praticamente a mesma que a refatoração \textit{rename attribute}. A única diferença é que deve-se atribuir uma instância da \textit{metaclass} \texttt{MethodUnit} \ding{186}. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_6}, caption={Gramática da DSL - parte 6}]
+MovingFeaturesBetweenObjects: 
+	$\textrm{\ding{182}}$ `MovingFeaturesBetweenObjects' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ (allRefactorings+=MoveAttribute)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ (allRefactorings+=MoveMethod)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{185}}$ (allRefactorings+=ExtractClass)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{186}}$ (allRefactorings+=InlineClass)$^{*}$
+	`}';
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{MovingFeaturesBetweenObjects} é ilustrada na Listagem de código~\ref{lst:dsl_part_6}. Perceba que tal definição é similar a da \textit{metaclass} \texttt{RenameFeature} (ver Listagem de código~\ref{lst:dsl_part_4}). Como pode ser observado a regra começa com a definição da palavra-chave \texttt{MovingFeaturesBetweenObjects} seguida por um \texttt{ID} \ding{182}. As expressões descritas em \ding{183}, \ding{184}, \ding{185} e \ding{186} representam que pode haver qualquer número de instancias das \textit{metaclasses} \texttt{MoveAttribute}, \texttt{MoveMethod}, \texttt{ExtractClass} e \texttt{InlineClass}, respectivamente. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_7}, caption={Gramática da DSL - parte 7}]
+MoveAttribute: 
+	$\textrm{\ding{182}}$ `Refactoring_MoveAttribute' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `attributeToBeMoved' `:' attributeToBeMoved = [StorableUnit]
+	`}';
+MoveMethod:
+	`Refactoring_MoveMethod' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ `methodToBeMoved' `:' methodToBeMoved = [MethodUnit]
+	`}';
+ExtractClass: 
+	`Refactoring_ExtractClass' name = ID `{'
+		$\textrm{\ding{229}}$`sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ `attribute(s)ToBeMoved' `:' 
+			$\textrm{\ding{229}}$ '{`attributesToBeMoved += [StorableUnit] 
+				$\textrm{\ding{229}}$ (`,'(attributesToBeMoved += [StorableUnit]))*`}'
+		$\textrm{\ding{229}}$ $\textrm{\ding{185}}$ `nameToTheNewClass' `:' newName = ID
+	`}';
+InlineClass: 
+	`Refactoring_InlineClass' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{186}}$ `classToGetAllFeatures' `:' classToGetAllFeatures = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{187}}$ `classToRemove' `:' classToRemove = [ClassUnit]
+	`}';
+\end{lstlisting}
+
+A semântica da refatoração \textit{move attribute} é definido na gramática da Listagem de código~\ref{lst:dsl_part_7} \ding{182}. Como pode ser observado é esperado a palavra-chave \texttt{Refactoring\_MoveAttribute} seguida por um \texttt{ID} e \texttt{\{}. Posteriormente deve-se especificar a palavra-chave \texttt{sourceClass}, seguido por \texttt{:}. Uma instância da \texttt{ClassUnit} que contém o atributo que será movimentado deve ser atribuída. Em seguida, deve-se indicar a \texttt{targetClass}. Novamente, uma instância de \textit{ClassUnit} deve ser atribuída, ou seja, a classe que receberá o atributo. Por fim, deve-se especificar qual atributo realmente será movimentado. Assim, a palavra-chave \texttt{attributeToBeMoved} deve ser especificada, seguido por \texttt{:}. Uma instância de \texttt{StorableUnit} que representa o atributo que será movimentado deve ser atribuída.
+
+A regra que descreve a refatoração \texttt{move method} é similar a refatoração \textit{move attribute} como pode ser observado na Listagem de código~\ref{lst:dsl_part_7}, duas principais diferenças podem ser notadas. A primeira diferença é a primeira palavra-chave da regra \texttt{Refactoring\_MoveMethod}. A segunda diferença pode ser ser observado na expressão \texttt{methodToBeMoved = [MethodUnit]} \ding{183}. Essa expressão mostra que deve-se especificar o método que será movimentado.
+
+A refatoração \textit{extract class} é definida na sequência. A regra sempre começa com a palavra-chave \texttt{Refactoring\_ExtractClass} seguida por um \texttt{ID} e \texttt{\{}. Similarmente, também deve-se especificar a palavra-chave \texttt{sourceClass} seguido por \texttt{:}. Uma instância da \texttt{ClassUnit} que contém os atributos que serão extraídos deve ser especificada. A diferença pode ser observado na expressão ilustrada pelo símbolo \ding{184}. Essa expressão inicia-se com a palavra-chave \texttt{attribute(s)ToBeMoved} seguido por \texttt{:} e \texttt{\{}, nesse contexto as chaves representam o(s) atributo(s) que será(ão) extraído(s). Em seguida a expressão descreve que ao menos uma instância de \texttt{StorableUnit} deve ser atribuída, porém, pode-se especificar mais do que uma instância de \texttt{StorableUnit}  para ser extraído, simplesmente separando cada \texttt{StorableUnit} por virgula (\texttt{,}). Em seguida, a palavra-chave \texttt{nameToTheNewClass} deve ser especifica seguido por \texttt{:} e \texttt{ID}.
+
+Para satisfazer a semântica da gramática relacionada a refatoração \textit{inline class} deve-se primeiramente especificar a palavra-chave \texttt{Refactoring\_InlineClass} seguida por um \texttt{ID} e \texttt{\{}. Em seguida, deve-se especificar a palavra-chave \texttt{classToGetAllFeatures} e \texttt{:} (ver \ding{186}). Uma instância de uma \texttt{ClassUnit} deve ser atribuída. Finalmente, deve-se especificar a palavra-chave \texttt{classToRemove}, \texttt{:} e uma instância de \texttt{ClassUnit} que representa a classe que será removida (ver \ding{186}).
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_8}, caption={Gramática da DSL - parte 8}]
+OrganizingData: 
+	$\textrm{\ding{182}}$ `OrganizingData' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ (allRefactorings+=ReplaceDataValueWithObject)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ (allRefactorings+=EncapsulateField)$^{*}$
+	`}';
+\end{lstlisting}
+  
+A definição da \textit{metaclass} \texttt{OrganizingData} é ilustrada na Listagem de código~\ref{lst:dsl_part_8}. Note que a  regra começa com a definição da palavra-chave \texttt{OrganizingData} seguida por um \texttt{ID} \ding{182}. As expressões descritas em \ding{183} e \ding{184} representam que pode haver qualquer número de instancias das \textit{metaclasses} \texttt{ReplaceDataValueWithObject} e \texttt{EncapsulateField}, respectivamente. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_9}, caption={Gramática da DSL - parte 9}]
+ReplaceDataValueWithObject: 
+	`Refactoring_ReplaceDataValueWithObject' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{182}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ `attributeToReplaceDataWithObject' `:' 
+			$\textrm{\ding{229}}$ attributeToReplaceDataWithObject = [StorableUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ `newAttributes' `:' `{'
+			$\textrm{\ding{229}}$ (newAttributes+=StorableUnit)$^{*}$
+		`}'
+	`}';
+EncapsulateField: 
+	`Refactoring_EncapsulateField' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{185}}$` sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ $\textrm{\ding{186}}$ `attributeToEncapsulate' `:' attributeToEncapsulate = [StorableUnit]
+	'}';
+\end{lstlisting}
+
+A semântica da refatoração \textit{replace data value with object} é definido na gramática da Listagem de código~\ref{lst:dsl_part_9}. Note que é esperado a palavra-chave \texttt{Refactoring\_ReplaceDataValueWithObject} seguida por um \texttt{ID} e \texttt{\{}. Posteriormente deve-se especificar a palavra-chave \texttt{sourceClass}, \texttt{:} e uma instância da \texttt{ClassUnit} deve ser atribuída (ver \ding{182}). Em seguida, deve-se especificar a palavra-chave \texttt{attributeToReplaceDataWithObject},  \texttt{:} e uma instância de \textit{StorableUnit} também deve ser atribuído (ver \ding{183}). Por fim, deve-se especificar a palavra-chave \texttt{newAttributes}, \texttt{:} seguida por um conjunto \texttt{StorableUnit} (ver \ding{184}).
+
+A refatoração \textit{ encapsulate field} é definida na sequência. A regra sempre começa com a palavra-chave \texttt{Refactoring\_EncapsulateField} seguida por um \texttt{ID} e \texttt{\{}. Similarmente, também deve-se especificar a palavra-chave \texttt{sourceClass} seguido por \texttt{:} e uma instância de \texttt{ClassUnit} (ver \ding{185}). Em seguida, deve-se especificar a palavra-chave \texttt{attributeToEncapsulate},  \texttt{:} e uma instância de \textit{StorableUnit}, o qual será encapsulado (ver \ding{186}).
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_10}, caption={Gramática da DSL - parte 10}]
+DealingWithGeneralization: 
+	$\textrm{\ding{182}}$ `DealingWithGeneralization' name = ID `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ (allRefactorings+=PushDownAttribute)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ (allRefactorings+=PushDownMethod)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{185}}$ (allRefactorings+=PullUpAttribute)$^{*}$
+		$\textrm{\ding{229}}$ $\textrm{\ding{186}}$ (allRefactorings+=PullUpMethod)$^{*}$
+	`}';
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{DealingWithGeneralization} é ilustrada na Listagem de código~\ref{lst:dsl_part_10}. Note que a regra começa com a definição da palavra-chave \texttt{DealingWithGeneralization} seguida por um \texttt{ID} e a chave, \texttt{\{} \ding{182}. As expressões descritas em \ding{183}, \ding{184}, \ding{185} e \ding{186} representam que pode haver qualquer número de instancias das \textit{metaclasses} \texttt{PushDownAttribute}, \texttt{PushDownMethod}, \texttt{PullUpAttribute} e \texttt{PullUpMethod}, respectivamente.
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_11}, caption={Gramática da DSL - parte 11}]
+PushDownAttribute: 
+	`Refactoring_PushDownAttribute' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `attributeToPushDown' `:' attributeToBePushed = [StorableUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit] '}';
+PushDownMethod: 
+	`Refactoring_PushDownMethod' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `methodToPushDown' `:' methodToBePushed = [MethodUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit] '}';
+PullUpAttribute: 
+	`Refactoring_PullUpAttribute' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `attributeToPullUp' `:' attributeToBePulled = [StorableUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit] '}';
+PullUpMethod: 
+	`Refactoring_PullUpMethod' name = ID `{'
+		$\textrm{\ding{229}}$ `sourceClass' `:' sourceClass = [ClassUnit]
+		$\textrm{\ding{229}}$ `methodToPullUp' `:' methodToBePulled = [MethodUnit]
+		$\textrm{\ding{229}}$ `targetClass' `:' targetClass = [ClassUnit] '}';
+\end{lstlisting} 
+
+As regras que definem a semântica das \textit{metaclasses} \texttt{PushDownAttribute}, \texttt{PushDownMethod}, \texttt{PullUpAttribute} e \texttt{PullUpMethod} estão definidas na Listagem de código~\ref{lst:dsl_part_11}.
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_12}, caption={Gramática da DSL - parte 12}]
+$\textrm{\ding{182}}$ PrimaryOperation:
+	(CreateClass | CreateAttribute | CreateMethod | 
+		$\textrm{\ding{229}}$ RemoveClass | RemoveAttribute | RemoveMethod | 
+			$\textrm{\ding{229}}$ MoveClass | CreateInheritance)
+;
+CreateClass: 
+	`Refactoring_CreateClass' `{'
+		$\textrm{\ding{229}}$ $\textrm{\ding{183}}$ `package' `:' package = [Package]
+		$\textrm{\ding{229}}$ $\textrm{\ding{184}}$ `class' `:' name = ID
+	`}';
+CreateAttribute: 
+	`Refactoring_CreateAttribute' `{'
+		$\textrm{\ding{229}}$ `class' `:'className = ID
+		$\textrm{\ding{229}}$ `@' attribute = ID 
+	`}';
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{PrimaryOperation} é ilustrada na Listagem de código~\ref{lst:dsl_part_12} \ding{182}. Essa \textit{metaclass} é responsável por representar algumas das operações básicas que podem constituir uma refatoração (\textit{add}, \textit{remove}, \textit{move}, \textit{create}). Na Listagem de código~\ref{lst:dsl_part_12} apenas algumas dessas operações são destacadas. A operação \textit{create class} é destacado na Listagem de código~\ref{lst:dsl_part_12} \ding{183}, perceba que a regra começa com a definição da palavra-chave \texttt{Refactoring\_CreateClass} seguida pela outra palavra-chave \texttt{package} e \texttt{:}. Em sequência a palavra-chave \texttt{class} e \texttt{:} devem ser especificadas (ver \ding{184}). A operação \textit{create attribute} é similar a anterior. 
+
+\begin{lstlisting}[language=Xtext, frame=single, basicstyle=\scriptsize, mathescape=true, label={lst:dsl_part_13}, caption={Gramática da DSL - parte 13}]
+$\textrm{\ding{182}}$ FormalizedDefinition: 
+	`Refactoring_FormalizedDefinition' `{'
+		 $\textrm{\ding{229}}$ (allDefinition+=BooleanExpression)*
+	`}';
+BooleanExpression: 
+	$\textrm{\ding{183}}$ AndExpression | OrExpression | NotExpression;
+AndExpression: 
+		$\textrm{\ding{229}}$ `AndExpr' `:' ref1 = Refactoring 
+		$\textrm{\ding{229}}$ `&&' ref2 = Refactoring;
+OrExpression: 
+		$\textrm{\ding{229}}$ `OrExpr' `:' ref1 = Refactoring
+		$\textrm{\ding{229}}$ `| |' ref2 = Refactoring ;
+NotExpression: 
+		$\textrm{\ding{229}}$ `NotExpr' `:' ref = Refactoring;
+\end{lstlisting}
+
+A definição da \textit{metaclass} \texttt{FormalizedDefinition} é ilustrada na Listagem de código~\ref{lst:dsl_part_13} \ding{182}. Utilizando as regras ilustradas na Listagem de código~\ref{lst:dsl_part_13} $\textrm{\ding{183}}$ os engenheiros de modernização podem realizar um \textit{chain of primary operations} permitindo a especificar/criar novas refatorações. Por exemplo, é possível criar expressões da seguinte forma, \texttt{createClass \&\& (moveAttribute \&\& createMethod)}.
+
+\subsubsection{Uma notação gráfica (concreta) da DSL para auxiliar a instânciação de refatorações com base no Refac-KDM}
+
+Usualmente os modelos gráficos são mais intuitivos de se utilizar. Assim, com o intuito de prover maior facilidade na instanciação do metamodelo Refac-KDM criou-se uma notação gráfica da DSL. Essa notação gráfica também auxilia o engenheiro de modernização, uma vez que o mesmo não precisa escrever as refatorações utilizando uma linguagem textual, ou seja, apenas elementos gráficos são utilizados para criar e definir as refatorações. Posteriormente, a IDE automaticamente fornece uma sincronização entre a DSL concreta e a DSL textual, provendo assim uma multi-visualização da DSL, gráfica e textual.
+
+A notação gráfica é composta por elementos que permitem a visualização e a edição das informações definidas na DSL de forma gráfica. A construção da sintaxe concreta de uma DSL é dependente da ferramenta adotada para esse fim. Por exemplo, o \textit{Graphical Modeling Framework} (GMF)\footnote{\texttt{https://www.eclipse.org/modeling/gmp/}} utiliza três tipos de modelos para definir a notação gráfica da DSL: (\textit{i}) \textit{Gmfgraph}, (\textit{ii}) \textit{Gmftool} e (\textit{iii}) Gmfmap. Na parte inferior a direita da Figura~\ref{fig:processoDOMETAMODELO} é possível visualizar um exemplo da notação gráfica que foi criada para dar suporte a DSL apresentada na Seção~\ref{sec:DSL}. 
+
+\begin{figure}[h!]
+ \centering
+ \scalebox{0.6}{\includegraphics{figuras/gmfGraph}}
+
+\caption{Definição da notação gráfica da DSL}
+ \label{fig:gmfGraph}
+\end{figure}
+\FloatBarrier
+
+No modelo \textit{Gmfgraph} são definidos os componentes da notação gráfica da DSL que correspondem às refatorações e seus relacionamentos. Cada componente gráfico pode ser formado pela junção de vários componentes de forma aninhada. Por exemplo, na Figura~\ref{fig:gmfGraph} é mostrado que o conjunto de refatoração relacionado a \textit{rename feature} é representada graficamente por um retângulo (\textit{Rectangle RenameFeatureFigure}) composto de outros retângulos que contêm um rótulo (\textit{RenameFeatureTitle}) e um compartimento (\textit{RenameFeatureCompartment}). Similarmente, a refatoração \textit{rename class} também é representada graficamente por um retângulo (\textit{Rectangle RenameClassFigure}) composto de outros retângulos que contêm um rótulo (\textit{RRenameClassTitle}) e um compartimento (\textit{RRenameClassContent}) que também contêm dois outros rótulos (\textit{RenameClassClassToBeRenamedNameFigure} e (\textit{RenameClassNewNameFigure})). 
+
+No modelo \textit{Gmftool} são definidos os itens de menu dos elementos e dos relacionamentos que podem ser utilizados. Na Figure~\ref{fig:gmfTool} é mostrado o modelo \textit{Gmftool} da DSL, no qual são definidos as refatorações. Note que foi criado um item para cada uma das refatorações: \textit{extract class}, \textit{move attribute}, \textit{move method}, etc.
+
+\begin{figure}[h!]
+ \centering
+ \scalebox{0.6}{\includegraphics{figuras/gmfTool}}
+
+\caption{Definição dos itens do menu da DSL}
+ \label{fig:gmfTool}
+\end{figure}
+\FloatBarrier
+
+
+No modelo \textit{Gmfmap} os elementos do metamodelo são combinados com os seus respectivos componentes da notação gráfica e itens de menu. Na Figura~\ref{fig:gmfMap} é ilustrado um exemplo de modelo \textit{Gmfmap} que combina as \textit{metaclasses} e os relacionamentos do metamodelo (Figura~\ref{fig:METAMODELO}) com a notação gráfica definida no modelo \textit{Gmfgraph} (Figura~\ref{fig:gmfGraph}) e com os itens de menu definidos no modelo \textit{Gmftool} (Figura~\ref{fig:gmfTool}). Nesse modelo cada refatoração é definida com a inclusão de um \textit{Top Node Reference} contendo um \textit{Node Mapping}. \textit{Feature Labels} são acrescentados para permitir a visualização e a edição dos nomes e dos tipos das refatorações.
+
+
+\begin{figure}[h!]
+ \centering
+ \scalebox{0.6}{\includegraphics{figuras/gmfMap}}
+
+\caption{Modelo \textit{Gmfmap da DSL}}
+ \label{fig:gmfMap}
+\end{figure}
+\FloatBarrier
+
+Na Figuras~\ref{fig:DSLTExtual} e~\ref{fig:DSLGrafica} são mostrados o uso da DSL textual e gráfica para especificar algumas refatorações, respetivamente. É importante destacar que todas as alterações realizadas na DSL textual implica na sincronização automática da DSL gráfica. Da mesma forma, se o engenheiro de software preferir utilizar a notação gráfica para instanciar refatorações a DSL textual também é sincronizada automaticamente. 
+
+\begin{figure}[h!]
+ \centering
+ \scalebox{0.6}{\includegraphics{figuras/DSLTextual}}
+\caption{Exemplo de utilização da DSL textual}
+ \label{fig:DSLTExtual}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[h!]
+ \centering
+ \scalebox{0.6}{\includegraphics{figuras/DSLGrafica}}
+\caption{Exemplo de utilização da DSL gráfica}
+ \label{fig:DSLGrafica}
+\end{figure}
+\FloatBarrier

@@ -1,0 +1,165 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{epsfig}
+\usepackage{array}
+\usepackage{pifont} 
+
+\usepackage{scrextend}
+
+\usepackage{graphicx, url}
+\usepackage[usenames]{color}
+\usepackage{rotating}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{subfigure}
+\usepackage[table]{xcolor}
+\usepackage{xspace}
+\usepackage[verbose, dvips=true, pdftex=false, vtex=false, paperwidth=210mm,paperheight=295mm,top=35mm,left=30mm,bottom=35mm,right=30mm]{geometry}
+\usepackage[authoryear]{natbib}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lscape}
+\usepackage{placeins}
+
+\usepackage{listings}
+\lstdefinelanguage{Xtext}{
+ morekeywords={grammar, with, hidden, generate, as, import, returns, current, terminal, enum, ID},
+ keywordstyle=[1]{\textbf},
+ morecomment=[l]{//}, 
+ morecomment=[s]{/*}{*/}, 
+ morestring=[b]",
+ tabsize=2}
+ 
+\newcommand{\lstXtext}[1]{\lstinline[breaklines=true,language=Xtext,basicstyle=\listingsfontinline,mathescape,literate={\-}{}{0\discretionary{-}{}{}}]\S#1\S}
+
+\DeclareGraphicsExtensions{.png,.jpg,.pdf,.mps}
+\bibliographystyle{icmc2}
+
+\clubpenalty=10000
+\widowpenalty=10000
+\newcommand{\rev}[1]{{\color{red}#1}}
+
+\newcommand{\titlehd}{\sffamily\bfseries\selectfont \scriptsize Uma Abordagem de Reestruturação de Sistemas Baseada em Requisitos de Qualidade Pré-Estabelecidos }
+
+\pagestyle{fancy}
+\headheight 61pt
+\fancyhead{}
+\fancyhead[LO]{\epsfig{file=icmc.jpg,height=15mm}}
+\fancyhead[RO]{}
+\fancyfoot{}
+
+\begin{document}
+
+\begin{center}
+\vspace*{1cm}
+{\fontsize{17.28}{20}\sffamily\bfseries\selectfont Uma Abordagem de Reestruturação de Sistemas Baseada em Requisitos de Qualidade Pré-Estabelecidos \\\ \\
+
+\small{RELATÓRIO CIENTÍFICO PARCIAL - 01/05/2013 a 28/02/2015}\\ \
+\textsf{Apresentado à Fundação de Amparo à Pesquisa do Estado de São Paulo - FAPESP}
+ \\
+\vspace{3cm}}
+
+
+\begin{table}[!th]
+  \begin{center}
+    \begin{tabular}{ll}
+
+	  Número do Processo:      &   FAPESP 2012/05168-4     \\
+      Período:        &  Maio/2013 a Fevereiro/2015                    \\
+	                   &                                \\
+      Bolsista:           &   Rafael Serapilha Durelli (rdurelli@icmc.usp.br)                                     \\
+	  
+	  \vspace{0.6cm}
+      Orientador:        &  Prof. Dr. Márcio Eduardo Delamaro (delamaro@icmc.usp.br)                                           \\
+
+	         &                              \\
+	          &  \\
+                       &                                  \\
+       &                                       \\
+              &                                             \\ \\
+      \vspace{1cm}
+
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\vfill
+{\fontsize{18}{20}\sffamily\bfseries\selectfont USP - São Carlos \\ Fevereiro de 2015}
+
+\end{center}
+
+\vspace{3cm}
+
+\pagebreak
+\fancyhead[RO]{\titlehd}
+\fancyfoot{\centerline{\thepage}}
+\setcounter{page}{1}
+
+\parskip 6pt
+
+\doublespacing
+\begin{abstract}
+\input{text/abstract}
+%Software é um produto que tende a evoluir constantemente com o intuito de satisfazer às necessidades de seus usuários. Para isso é necessário submetê-lo a constantes atividades de manutenção, que podem ocasionar um possível degradação no código-fonte. Dessa forma, o objetivo desta proposta de doutorado é o desenvolvimento de uma abordagem que auxilie o engenheiro de software a escolher o melhor conjunto de transformações para um sistema legado com base em requisitos de qualidade pré-estabelecidos e com isso possa identificar o impacto que tais transformações irão ocasionar no sistema legado. Isto é, a abordagem deverá indicar conjuntos de possíveis transformações para a evolução do sistema legado, além disso, deverá informar ao engenheiro o quanto tais transformações irão afetar a evolução/estrutura desse sistema. Com isso, o engenheiro de software poderia previamente escolher qual o melhor conjunto de  transformação se aplica dado um requisito de qualidade pré-estabelecido. Após a escolha das transformações a abordagem também deverá realizar automaticamente tais transformações a fim de reestruturar o sistema legado em um novo sistema. Será avaliado a abordagem por meio de experimentos controlados.
+
+\end{abstract}
+
+
+      
+
+
+
+\section{Introdução}
+	\input{text/introduction}
+
+\section{Plano de Trabalho}\label{plano_trabalho}
+	\input{text/plano_de_trabalho}
+
+\section{Fundamentação Teórica}
+	\input{text/background}
+		%\subsection{Resumo do Plano Inicial}\label{resumo_plano_inicial}
+		%	\input{text/resumo_do_palno_inicial}
+
+\section{Cronograma e Resumo das Atividades Realizadas no Período}\label{cronograma}
+\input{text/cronograma}
+
+\subsection{Resumo das Atividades Realizadas no Período}\label{atividades_realizadas}
+
+ 	\input{text/resumo_das_atividades_realizadas_no_periodo} 
+	 
+	 % subsection revis_o_bibliogr_fica_sistem_tica (end)	
+
+	 \subsection{Publicações, Participação em Eventos Científicos e Apresentações de Trabalhos} % (fold)   
+	 \label{sub:publica_es_participa_o_em_eventos_cient_ficos_e_apresenta_es_de_trabalhos}
+	 
+	 	\input{text/publicacoes_participacao_eventos_cientificos_apresentacoes_trabalhos}
+	 % subsection publica_es_participa_o_em_eventos_cient_ficos_e_apresenta_es_de_trabalhos (end)
+
+
+	 
+	 \section{Atividades Previstas para o Próximo Período} % (fold)
+	 \label{sub:atividades_previstas_para_o_pr_ximo_per_odo}
+	 
+	 	\input{text/atividades_previstas}
+
+	 % subsection atividades_previstas_para_o_pr_ximo_per_odo (end)
+ 
+
+\singlespacing 
+\bibliographystyle{icmc}
+\bibliography{referencias2}
+
+
+\clearpage
+
+\section{Anexos}\label{anexos}
+
+\addcontentsline{toc}{section}{Anexos}\label{anexos}
+
+% 
+
+\input{text/anexos}
+
+\end{document}

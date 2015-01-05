@@ -1,0 +1,121 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_000065.aux
+The style file: icmc2.bst
+Illegal, another \bibstyle command---line 139 of file TSWLatexianTemp_000065.aux
+ : \bibstyle
+ :          {icmc}
+I'm skipping whatever remains of this command
+Database file #1: referencias2.bib
+Repeated entry---line 2767 of file referencias2.bib
+ : @book{ADMBook
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2777 of file referencias2.bib
+ : @article{On_the_unification_power_of_models
+ :                                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2789 of file referencias2.bib
+ : @book{ADMCHAPTERR
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2817 of file referencias2.bib
+ : @misc{ISOKDM
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2846 of file referencias2.bib
+ : @article{PerezCastillo:2011jo
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2924 of file referencias2.bib
+ : @inproceedings{Griffith2011
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3209 of file referencias2.bib
+ : @article{Mens04
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3219 of file referencias2.bib
+ : @article{Demeyer1
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3774 of file referencias2.bib
+ : @book{refactImpro
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3784 of file referencias2.bib
+ : @phdthesis{Opdy92b
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4407 of file referencias2.bib
+ : @misc{OMGADM
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4933 of file referencias2.bib
+ : @book{Wohlin
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5746 of file referencias2.bib
+ : @book{Kleppe:2003
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+You've used 29 entries,
+            2708 wiz_defined-function locations,
+            808 strings with 11127 characters,
+and the built_in function-call counts, 15087 in all, are:
+= -- 1468
+> -- 684
+< -- 26
++ -- 272
+- -- 234
+* -- 1329
+:= -- 2551
+add.period$ -- 58
+call.type$ -- 29
+change.case$ -- 226
+chr.to.int$ -- 24
+cite$ -- 29
+duplicate$ -- 730
+empty$ -- 1113
+format.name$ -- 320
+if$ -- 3152
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 37
+newline$ -- 97
+num.names$ -- 118
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 193
+quote$ -- 0
+skip$ -- 526
+stack$ -- 0
+substring$ -- 712
+swap$ -- 206
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 237
+warning$ -- 0
+while$ -- 124
+width$ -- 0
+write$ -- 321
+(There were 14 error messages)

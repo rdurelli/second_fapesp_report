@@ -1,0 +1,177 @@
+\begin{thebibliography}{29}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\input babelbst.tex
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[{Bézivin(2005)}]{On_the_unification_power_of_models}
+\relax{Bézivin, J.}\ \ \  On the unification power of models.\ \ \
+  \textit{Software and Systems Modeling}, \bblvol{}~4, \bblno{}~2,
+  \bblpp{}~171--188, 2005.
+
+\bibitem[{Canfora \bbletal{}(1994)Canfora, Cimitile e
+  Munro}]{Re2_Reverse_engineering_and_reuse_re_engineering}
+\relax{Canfora, G.; Cimitile, A.; Munro, M.}\ \ \  Re2: Reverse-engineering and
+  reuse re-engineering.\ \ \ \textit{Journal of Software Maintenance: Research
+  and Practice}, \bblvol{}~6, \bblpp{}~53--72, 1994.
+
+\bibitem[{Canfora \bbletal{}(2011)Canfora, Di~Penta e
+  Cerulo}]{Achievements_and_Challenges_in_Software_Reverse_Engineering}
+\relax{Canfora, G.; Di~Penta, M.; Cerulo, L.}\ \ \  Achievements and challenges
+  in software reverse engineering.\ \ \ \textit{Commun. ACM}, \bblvol{}~54,
+  \bblno{}~4, \bblpp{}~142--151, 2011.
+
+\bibitem[{Chikofsky e
+  Cross(1990)}]{Reverse_engineering_and_Design_Recovery_A_Taxonomy}
+\relax{Chikofsky, E.; Cross, J.H., I.}\ \ \  Reverse engineering and design
+  recovery: a taxonomy.\ \ \ \textit{Software, IEEE}, \bblvol{}~7, \bblno{}~1,
+  \bblpp{}~13--17, 1990.
+
+\bibitem[{Demeyer \bbletal{}(2004)Demeyer, Du~Bois e Verelst}]{Demeyer1}
+\relax{Demeyer, S.; Du~Bois, B.; Verelst, J.}\ \ \  {Refactoring - Improving
+  Coupling and Cohesion of Existing Code}.\ \ \ \textit{Reverse Engineering,
+  2004. Proceedings. 11th Working Conference on}, 2004.
+
+\bibitem[{Durelli \bbletal{}(2014{\natexlab{a}})Durelli, Santos~M, Honda,
+  Delamaro e Camargo}]{KDM_RE_A_Model_Driven_Refactoring_Tool_for_KDM}
+\relax{Durelli, R.; Santos~M, B.; Honda, R.; Delamaro, M.; Camargo, V.}\ \ \
+  Kdm-re: A model-driven refactoring tool for kdm.\ \ \ \textit{Workshop on
+  Software Visualization, Evolution and Maintenance}, \bblpp{}~1--8,
+  2014{\natexlab{a}}.
+
+\bibitem[{Durelli \bbletal{}(2014{\natexlab{b}})Durelli, Santib\'{a}\~{n}ez,
+  Delamaro e Camargo}]{iri_systematic_mapping_ADM_2014}
+\relax{Durelli, R.~S.; Santib\'{a}\~{n}ez, D. S.~M.; Delamaro, M.~E.; Camargo,
+  V.~V.}\ \ \  A mapping study on architecture-driven modernization.\ \ \
+  \capitalize\bblin{}: \textit{IEEE 15th International Conference on
+  Information Reuse and Integration (IRI)}, 2014{\natexlab{b}}, \bblpp{}
+  168--178.
+
+\bibitem[{Durelli \bbletal{}(2014{\natexlab{c}})Durelli, Santib\'{a}\~{n}ez,
+  Delamaro e Camargo}]{iri_catalogue_of_refactoring_2014}
+\relax{Durelli, R.~S.; Santib\'{a}\~{n}ez, D. S.~M.; Delamaro, M.~E.; Camargo,
+  V.~V.}\ \ \  Towards a refactoring catalogue for knowledge discovery
+  metamodel.\ \ \ \capitalize\bblin{}: \textit{IEEE 15th International
+  Conference on Information Reuse and Integration (IRI)}, 2014{\natexlab{c}},
+  \bblpp{} 158--168.
+
+\bibitem[{Eilam(2005)}]{Reversing_Secrets_of_Reverse_Engineering}
+\relax{Eilam, E.}\ \ \  \emph{{Reversing: Secrets of Reverse Engineering}}.\ \
+  \ {Wiley}, 624 \bblpp{}, 2005.
+
+\bibitem[{Fowler \bbletal{}(1999)Fowler, Beck, Brant, Opdyke e
+  Roberts}]{refactImpro}
+\relax{Fowler, M.; Beck, K.; Brant, J.; Opdyke, W.; Roberts, D.}\ \ \
+  \emph{{Refactoring: Improving the Design of Existing Code}}.\ \ \
+  Addison-Wesley, 1999.
+
+\bibitem[{Griffith \bbletal{}(2011)Griffith, Wahl e Izurieta}]{Griffith2011}
+\relax{Griffith, I.; Wahl, S.; Izurieta, C.}\ \ \  Evolution of legacy system
+  comprehensibility through automated refactoring.\ \ \ \capitalize\bblin{}:
+  \textit{Proceedings of the International Workshop on Machine Learning
+  Technologies in Software Engineering}, New York, NY, USA: ACM, 2011, \bblpp{}
+  35--42.
+
+\bibitem[{{ISO/IEC DIS 19506}(2011)}]{ISOKDM}
+\relax{{ISO/IEC DIS 19506}}\ \ \  {Knowledge Discovery Meta-model (KDM),
+  v1.1}.\ \ \ Online, \url{http://www.iso.org/iso/catalogue_detail.
+  htm?csnumber=32625} - Acessado em 03/07/2012, 2011.
+
+\bibitem[{Kent(2002)}]{Model_Driven_Engineering}
+\relax{Kent, S.}\ \ \  Model driven engineering.\ \ \ \capitalize\bblin{}:
+  \relax{Butler, M.; Petre, L.; Sere, K.}, \bbleds{} \textit{Integrated Formal
+  Methods}, Springer Berlin Heidelberg, \bblpp{} 286--298, 2002.
+
+\bibitem[{Kitchenham \bbletal{}(2009)Kitchenham, Pearl~Brereton, Budgen,
+  Turner, Bailey e Linkman}]{kit04}
+\relax{Kitchenham, B.; Pearl~Brereton, O.; Budgen, D.; Turner, M.; Bailey, J.;
+  Linkman, S.}\ \ \  Systematic literature reviews in software engineering - a
+  systematic literature review.\ \ \ \textit{Information and Software
+  Technology}, \bblvol{}~51, \bblpp{}~7--15, 2009.
+
+\bibitem[{Kleppe \bbletal{}(2003)Kleppe, Warmer e Bast}]{Kleppe:2003}
+\relax{Kleppe, A.~G.; Warmer, J.; Bast, W.}\ \ \  \emph{Mda explained: The
+  model driven architecture: Practice and promise}.\ \ \ Boston, MA, USA:
+  Addison-Wesley Longman Publishing Co., Inc., 2003.
+
+\bibitem[{Mens e Tourwe(2004)}]{Mens04}
+\relax{Mens, T.; Tourwe, T.}\ \ \  {A Survey of Software Refactoring}.\ \ \
+  \textit{Transactions on Software Engineering, IEEE}, \bblvol{}~30, 2004.
+
+\bibitem[{{OMG}(2012{\natexlab{a}})}]{OMGADM}
+\relax{{OMG}}\ \ \  {Object Management Group (OMG) Architecture-Driven
+  Modernisation}.\ \ \ Dispon\'ivel em:
+  \emph{http://www.omgwiki.org/admtf/doku.php?id=start}, (Acessado 2 de Agosto
+  de 2012), 2012{\natexlab{a}}.
+
+\bibitem[{{OMG}(2012{\natexlab{b}})}]{OMGMDD}
+\relax{{OMG}}\ \ \  {Object Management Group (OMG) Model-Driven Development ---
+  OMG Available Specification without Change Bars}.\ \ \ Dispon\'ivel em:
+  \emph{http://www.omg.org}, (Acessado 2 de Agosto de 2012),
+  2012{\natexlab{b}}.
+
+\bibitem[{Opdyke(1992)}]{Opdy92b}
+\relax{Opdyke, W.~F.}\ \ \  \emph{{Refactoring Object-Oriented Frameworks}}.\ \
+  \ Ph.\textsc{D}. \textsc{T}hesis, University of Illinois, 1992.
+
+\bibitem[{Perez-Castillo \bbletal{}(2011{\natexlab{a}})Perez-Castillo,
+  Garcia-Rodriguez~de Guzman e Piattini}]{PerezCastillo:2011jo}
+\relax{Perez-Castillo, R.; Garcia-Rodriguez~de Guzman, I.; Piattini, M.}\ \ \
+  {Knowledge Discovery Metamodel-ISO/IEC 19506: A standard to modernize legacy
+  systems}.\ \ \ \textit{Computer Standards {\&} Interfaces}, \bblvol{}~33,
+  \bblno{}~6, \bblpp{}~519--532, 2011{\natexlab{a}}.
+
+\bibitem[{P{\'e}rez-Castillo \bbletal{}(2013)P{\'e}rez-Castillo, de~Guzm{\'a}n,
+  Caballero e
+  Piattini}]{Software_modernization_by_recovering_Web_services_from_legacy_databases}
+\relax{P{\'e}rez-Castillo, R.; de~Guzm{\'a}n, I. G.~R.; Caballero, I.;
+  Piattini, M.}\ \ \  Software modernization by recovering web services from
+  legacy databases.\ \ \ \textit{Journal of Software: Evolution and Process},
+  \bblvol{}~25, \bblno{}~5, \bblpp{}~507--533, 2013.
+
+\bibitem[{Perez-Castillo \bbletal{}(2011{\natexlab{b}})Perez-Castillo,
+  de~Guzm{\'a}n e Piattini}]{ADMCHAPTERR}
+\relax{Perez-Castillo, R.; de~Guzm{\'a}n, I. G.-R.; Piattini, M.}\ \ \
+  \emph{Architecture driven modernization}.\ \ \ San Francisco, CA, USA:
+  Information Science Reference, 2011{\natexlab{b}}.
+
+\bibitem[{Premerlani e
+  Blaha(1993)}]{An_approach_for_reverse_engineering_of_relational_databases}
+\relax{Premerlani, W.; Blaha, M.}\ \ \  An approach for reverse engineering of
+  relational databases.\ \ \ \capitalize\bblin{}: \textit{Proceedings of
+  Working Conference on Reverse Engineering}, 1993, \bblpp{} 151--160.
+
+\bibitem[{Rugaber e Stirewalt(2004)}]{Model_Driven_Reverse_Engineering}
+\relax{Rugaber, S.; Stirewalt, K.}\ \ \  Model-driven reverse engineering.\ \ \
+  \textit{Software, IEEE}, \bblvol{}~21, \bblno{}~4, \bblpp{}~45--53, 2004.
+
+\bibitem[{Smith e
+  Nair(1992)}]{Software_Reuse_and_Reverse_Engineering_in_Practice}
+\relax{Smith, J.; Nair, R.}\ \ \  \emph{{Software Reuse and Reverse Engineering
+  in Practice}}.\ \ \ {Chapman and Hall Ltd}, 608 \bblpp{}, 1992.
+
+\bibitem[{Thomas(2004)}]{ThomasMDD}
+\relax{Thomas, D.}\ \ \  Mda: revenge of the modelers or uml utopia?\ \ \
+  \textit{Software, IEEE}, \bblpp{}~15 -- 17, 2004.
+
+\bibitem[{Ulrich e Newcomb(2010{\natexlab{a}})}]{ADMBook}
+\relax{Ulrich, W.~M.; Newcomb, P.}\ \ \  \emph{Information systems
+  transformation: Architecture-driven modernization case studies}.\ \ \ San
+  Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 2010{\natexlab{a}}.
+
+\bibitem[{Ulrich e
+  Newcomb(2010{\natexlab{b}})}]{Information_Systems_Transformation_Architecture_Driven_Modernization_Case_Studies}
+\relax{Ulrich, W.~M.; Newcomb, P.}\ \ \  \emph{Information systems
+  transformation: Architecture-driven modernization case studies}.\ \ \ San
+  Francisco, CA, USA: Morgan Kaufmann Publishers Inc., 2010{\natexlab{b}}.
+
+\bibitem[{Wohlin \bbletal{}(2000)Wohlin, Runeson, H\"{o}st, Ohlsson, Regnell e
+  Wessl\'{e}n}]{Wohlin}
+\relax{Wohlin, C.; Runeson, P.; H\"{o}st, M.; Ohlsson, M.~C.; Regnell, B.;
+  Wessl\'{e}n, A.}\ \ \  \emph{Experimentation in software engineering: an
+  introduction}.\ \ \ Norwell, MA, USA: Kluwer Academic Publishers, 2000.
+
+\end{thebibliography}
